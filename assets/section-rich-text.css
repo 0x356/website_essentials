@@ -1,0 +1,31 @@
+.rich-text.rich-text--full-width {
+  max-width: initial;
+  width: 100%;
+}
+
+.rich-text__blocks * {
+  overflow-wrap: break-word;
+}
+
+.rich-text__wrapper {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.rich-text__wrapper > *:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+/* Blocks */
+.rich-text__text-left {
+  margin-right: auto;
+}
+.rich-text__text-center {
+  margin: 0 auto;
+}
+.rich-text__text-right {
+  margin-left: auto;
+}
+.rich-text__text p {
+  margin: 0;
+}

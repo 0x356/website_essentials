@@ -1,0 +1,144 @@
+{% comment %}
+	Renders an header mega menu.
+
+	Accepts:
+	- links: {Array} Menu links
+	- block: {Object} Menu Block Object
+	- collection: {Object} Collection Object
+	- collections: {Array} Collections Array
+	- product: {Object} Product Object
+	Usage:
+	if menu type is 'mega_menu_collection' :
+		{% render 'header-submenu' links: link.links, %}
+	if menu type is 'mega_menu_only_collection' :
+		{% render 'header-submenu' links: link.links, %}
+	if menu type is 'mega_menu_product' :
+		{% render 'header-submenu' links: link.links, %}
+{% endcomment %}
+{% liquid
+	comment
+		case block.type
+		when 'mega_menu_collection'
+		assign menu_link = '##'
+		assign menu_link_class = 'cursor-default'
+		when 'mega_menu_collection'
+		assign menu_link = link.url
+		assign menu_link_class = ''
+		else
+		assign menu_link = '##'
+		assign menu_link_class = 'cursor-default'
+		endcase
+	endcomment
+	assign menu_link = link.url
+	assign menu_link_class = ''
+%}
+<a
+	href="{{ menu_link }}"
+	class="unstyled-link header__menu-item {{ menu_link_class }}{% if link.current %} current-link{% endif %}"
+	{% if link.current %}
+		aria-current="page"
+	{% endif %}
+>
+	{{- link.title | escape }}
+</a>
+<div class="header-mega-menu color-background-1">
+	<div class="container">
+		<div class="header-mega-menu__wrapper">
+			<div class="header-mega-menu__box">
+			<ul class="header-mega-menu__have-submenu__list list-unstyled">
+				{%- for childlink in links -%}
+					<li data-hover-opacity="5">
+						{% if childlink.links == blank %}
+							<a
+								href="{{ childlink.url }}"
+								class="header-mega-menu__link"
+								{% if childlink.current %}
+									aria-current="page"
+								{% endif %}
+								{% if childlink.type == 'http_link' and settings.open_new_tab %}
+									target="_blank"
+								{% endif %}
+							>
+								<span>
+									{{ childlink.title | escape }}
+								</span>
+							</a>
+						{% else %}
+							<details class="mega-menu-details">
+								<summary>
+									<span class="header-menu-trigger header-mega-menu__link">
+										{{- childlink.title | escape -}}
+										{% render 'icon-caret-small' %}
+									</span>
+								</summary>
+								<ul class="header-mega-menu__submenu list-unstyled">
+									{%- for grandchildlink in childlink.links -%}
+										<li class="large-font {% if grandchildlink.current %}current-link{% endif %}" data-hover-opacity="6">
+											<a
+												href="{{ grandchildlink.url }}"
+												{% if grandchildlink.type == 'http_link'
+													and settings.open_new_tab
+												%}
+													target="_blank"
+												{% endif %}
+												class="unstyled-link hover-opacity small-font"
+											>
+												{{- grandchildlink.title | escape -}}
+											</a>
+										</li>
+									{%- endfor -%}
+								</ul>
+							</details>
+						{% endif %}
+					</li>
+				{%- endfor -%}
+			</ul>
+			<div class="header-mega-menu__links">
+				{% if block.settings.primary_button_label != blank %}
+					<a class="extra_small-font" {% if block.settings.primary_button_link != blank %}href="{{ block.settings.primary_button_link }}"{% else %}disable{% endif %} data-hover-opacity="10">
+						<span>{{ block.settings.primary_button_label }}</span>
+					</a>
+				{% endif %}
+				{% if block.settings.secondary_button_label != blank %}
+					<a class="extra_small-font" {% if block.settings.secondary_button_link != blank %}href="{{ block.settings.secondary_button_link }}"{% else %}disable{% endif %} data-hover-opacity="10">
+						<span>{{ block.settings.secondary_button_label }}</span>
+					</a>
+				{% endif %}
+			</div>
+			</div>
+			{% if block.settings.collection_list != blank %}
+				<div
+					class="header-mega-menu__product-list card-link-small"
+					id="menu__card-{{ block.id }}"
+				>
+					{% for collection in block.settings.collection_list %}
+						{%liquid
+							assign block_img = blank
+							if forloop.index == 1 and block.settings.first_img != blank
+								assign block_img = block.settings.first_img
+							else
+							endif
+							if forloop.index == 2 and block.settings.second_img != blank
+								assign block_img = block.settings.second_img
+							endif
+						%}
+						<div class="header__product-card">
+							{% render 'collection-card',
+								block_collection: collection,
+								block_image: block_img,
+								media_size: block.settings.image_ratio,
+								url: collection.url,
+								collection_title: collection.title,
+								collection_desc: collection.description,
+								collection_image: collection.image,
+								show_collection_desc: block.settings.show_collection_desc,
+								menu_block_id: block.id,
+								card_type: "overlay"
+							%}
+						</div>
+					{% endfor %}
+				</div>
+			{% endif %}
+		</div>
+	</div>
+</div>

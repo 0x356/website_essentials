@@ -1,0 +1,9 @@
+.collection-grid__wrapper {
+  display: grid;
+  gap: 3.2rem 1.6rem;
+}
+@media screen and (min-width: 1200px) {
+  .collection-grid__wrapper {
+    gap: var(--gap);
+  }
+}

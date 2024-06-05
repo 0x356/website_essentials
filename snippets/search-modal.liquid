@@ -1,0 +1,90 @@
+<div class="search-modal background" role="dialog" aria-modal="true" aria-label="{{ 'general.search.search' | t }}" id="search-modal">
+	<button class="search__close modal-close-button" aria-label="Close" onclick="this.parentElement.parentElement.open = false">{% render 'icon-close' %}</button>
+	<div class="search-modal__overlay color-inverse"></div>
+	<div class="search-modal__item">
+		<div class="search-modal__content">
+			{%- if settings.predictive_search_enabled -%}
+				<predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
+			{%- endif -%}
+				<form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
+					<div class="search__form-inner">
+						<div class="field">
+							<div class="container">
+								<div class="search__form__wrapper">
+									<button class="search__button" aria-label="{{ 'general.search.search' | t }}" type="submit">
+										{% render 'icon-search' %}
+									</button>
+									<input class="search__input field__input" 
+										id="Search-In-Modal" 
+										type="search" 
+										name="q" 
+										value="{{ search.terms | escape }}"
+										placeholder=" "
+										{%- if settings.predictive_search_enabled -%}
+											role="combobox"
+											aria-expanded="false"
+											aria-owns="predictive-search-results-list"
+											aria-controls="predictive-search-results-list"
+											aria-haspopup="listbox"
+											aria-autocomplete="list"
+											autocorrect="off"
+											autocomplete="off"
+											autocapitalize="off"
+											spellcheck="false"
+										{%- endif -%}
+									>
+									<label class="field__label" for="Search-In-Modal">{{ 'general.search.placeholder' | t }}</label>
+									<input type="hidden" name="options[prefix]" value="last">
+										<button class="search-reset__button" aria-label="{{ 'general.search.reset' | t }}" type="reset">
+											{% render 'icon-close' %}
+										</button>
+								</div>
+							</div>
+							{%- if settings.predictive_search_enabled -%}
+								<div class="predictive-search__wrapper">
+									<div class="container">
+										<div class="predictive-search__wrapper-box">
+											<div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
+												<div class="predictive-search__loading-state">
+													{% render 'icon-spinner' %}
+												</div>
+											</div>
+											<span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+									</div>
+								</div>
+							</div>
+							{%- endif -%} 
+						</div>
+					</div>
+				</form>
+			{%- if settings.predictive_search_enabled -%}
+				</predictive-search>
+			{%- endif -%}
+			{%- if settings.search_collection_list != blank or settings.search_product_list != blank -%}
+				<div class="search__recomendation container card-link-small">
+						{%- if settings.search_collection_list != blank -%}
+							<div class="search__categories">
+								<div class="search__categories-wrapper">
+									<ul class="search__categories-list list-unstyled" role="list">
+										{%- for collection in settings.search_collection_list -%}
+											<li class="search__categories-item">
+												{%
+													render 'collection-card',
+													block_collection: collection,
+													collection_title: collection.title,
+													media_size: settings.search_collections_image_ratio,
+													url: collection.url,
+													collection_desc: settings.search_show_collection_desc,
+													card_type: settings.collection_card_type
+												%}
+											</li>
+										{%- endfor -%}
+									</ul>
+								</div>
+							</div>
+						{%- endif -%}
+				</div>
+			{%- endif -%}
+		</div>
+	</div>
+</div>

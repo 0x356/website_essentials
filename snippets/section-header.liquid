@@ -1,0 +1,53 @@
+{% liquid
+	if custom_settings
+		assign section_heading = section_heading
+		assign section_description = section_description
+		assign section_button_label = section_button_label
+		assign section_button_link = section_button_link
+		assign section_button_style = section_button_style
+		assign section_enable_arrow = section_enable_arrow
+	else
+		assign section_heading = section.settings.heading
+		assign section_description = section.settings.description
+		assign section_button_label = section.settings.button_label
+		assign section_button_link = section.settings.button_link
+		assign section_button_style = section.settings.button_style
+	endif
+%}
+{%- if section_heading != blank or section_button_label != blank -%}
+	<div class="section-header__line">
+		<div class="container">
+			<div class="section-header__item">
+				<div class="section-header__title__block">
+					<div class="section-header__title-item">
+						{%- if section_heading != blank -%}
+							<h2 class="section-header__title title--section h5">
+								{{ section_heading }}
+							</h2>
+						{% endif %}
+						{%- if section_description != blank -%}
+							<div class="section-header__desc richtext__content small-font">
+								{{ section_description }}
+							</div>
+						{% endif %}
+					</div>
+					<div class="section-header__button">
+						{% if section_button_label != blank %}
+							{% render 'button', layout: section %}
+						{% endif %}
+						{% if show_arrows %}
+							<div class="section-header__button-arrow">
+								<button class=" {% if section_button_label %}section-header__button-right {% endif %}swiper-button swiper-button-prev swiper-button-disabled">
+									<span>{% render 'icon-arrow' %}</span>
+								</button>
+								<button class="swiper-button swiper-button-next">
+									<span>{% render 'icon-arrow' %}</span>
+								</button>
+							</div>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{%- endif -%}

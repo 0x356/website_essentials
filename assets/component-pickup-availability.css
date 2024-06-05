@@ -1,0 +1,204 @@
+pickup-availability[available] {
+  display: block;
+  margin-top: 2.4rem;
+  padding: 1.6rem 0;
+  border-bottom: 0.1rem solid rgb(var(--color-border));
+  border-top: 0.1rem solid rgb(var(--color-border));
+}
+@media (min-width: 750px) {
+  pickup-availability[available] {
+    padding: 1.6rem 0 0;
+  }
+}
+pickup-availability .caption-large,
+pickup-availability .caption {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: rgba(var(--color-foreground));
+  text-transform: none;
+  margin: 0;
+}
+pickup-availability .pickup-availability-info {
+  display: grid;
+  grid-template-areas: "a a ." "b b c";
+}
+pickup-availability .caption-large {
+  grid-area: a;
+}
+pickup-availability .caption {
+  grid-area: b;
+}
+
+.pickup-availability .pickup-availability-overlay {
+  visibility: visible;
+  transition: visibility var(--duration-default) ease;
+}
+
+.pickup-availability-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  background-color: rgba(var(--color-overlay), 0.4);
+  visibility: hidden;
+  transition: visibility var(--duration-default) ease;
+}
+
+.pickup-availabilit-main_info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding-top: 2.4rem;
+  border-top: 1px solid rgb(var(--color-border));
+}
+.pickup-availabilit-main_info .pickup-availability-preview {
+  display: flex;
+  gap: 0.5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .pickup-availability-preview {
+    padding: 0 2rem 0 0;
+  }
+}
+.pickup-availability-preview {
+  margin: 0;
+  color: rgba(var(--color-foreground-secondary));
+  font-size: 1.8rem;
+}
+
+.pickup-availability-preview .icon {
+  flex-shrink: 0;
+}
+
+.pickup-availability-preview .icon-unavailable {
+  height: 1.6rem;
+  margin-top: 0.1rem;
+}
+
+.pickup-availability-button {
+  font-size: 1.2rem;
+  font-weight: 400;
+  grid-area: c;
+  margin-left: auto;
+}
+
+pickup-availability-drawer {
+  display: none;
+  background-color: rgb(var(--color-background));
+  border: 0.1rem solid rgba(var(--color-foreground), 0.2);
+  height: 100%;
+  overflow-y: auto;
+  padding: 3rem;
+  position: fixed;
+  top: 0;
+  right: -40rem;
+  z-index: 11;
+  animation: animateDrawerOpen 0.25s;
+  transform: translate3d(-40rem, 0, 0);
+  width: 40rem;
+  max-width: 100%;
+}
+
+pickup-availability-drawer[open] {
+  display: block;
+}
+
+.pickup-availability-header {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+.pickup-availability-names {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.pickup-availability-drawer-title {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.pickup-availability-product-info {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.pickup-availability-product-info .cart-item-info h2 {
+  margin-bottom: 6px;
+}
+
+.body-template-product.overflow-hidden main {
+  z-index: 11;
+}
+.body-template-product.overflow-hidden main .product .product__media-item {
+  z-index: -1;
+}
+
+.pickup-availability-header .icon {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.pickup-availability-drawer-button {
+  background-color: transparent;
+  border: none;
+  color: rgb(var(--color-foreground));
+  cursor: pointer;
+  display: block;
+  height: 4.4rem;
+  padding: 1.2rem;
+  width: 4.4rem;
+}
+
+.pickup-availability-drawer-button:hover {
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.pickup-availability-drawer-button:hover .icon {
+  transform: rotate(90deg);
+}
+
+.pickup-availability-variant {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  margin: 0 0 1.2rem;
+  text-transform: capitalize;
+}
+
+.pickup-availability-variant > * + strong {
+  margin-left: 1rem;
+}
+
+.pickup-availability-list__item {
+  padding: 2rem 0;
+}
+
+.pickup-availability-list__item > * {
+  margin: 0;
+}
+
+.pickup-availability-address {
+  margin: 0;
+}
+
+.pickup-availability-address p {
+  margin: 0;
+}
+
+@keyframes animateDrawerOpen {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-40rem, 0, 0);
+  }
+}

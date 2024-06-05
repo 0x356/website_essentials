@@ -1,0 +1,80 @@
+{{ 'component-collection-card.css' | asset_url | stylesheet_tag }}
+
+{% liquid
+	case media_size
+		when 'landscape'
+			assign section_size = '75%'
+		when 'portrait'
+			assign section_size = '125%'
+		when 'square'
+			assign section_size = '100%'
+		else
+			assign section_size = '100%'
+	endcase
+%}
+
+<div
+	class="collection-card{% if card_type == 'overlay' %} color-inverse{% endif %}"
+	style="--image-size: {{ section_size }};"
+>
+	<a
+		class="collection-card__img{% if card_type == 'overlay' %} have-overlay{% endif %}"
+		{% if block_collection != blank %}
+			href="{{ url }}"
+		{% endif %}
+	>
+		{% if block_image != blank
+			or collection_image != blank
+			or block_collection.featured_image
+		%}
+			{% liquid
+				if block_image != blank
+					assign collectionImg = block_image
+				elsif collection_image != blank
+					assign collectionImg = collection_image
+				elsif block_collection.featured_image != blank
+					assign collectionImg = block_collection.featured_image
+				endif
+				assign image_height = collectionImg.width | divided_by: collectionImg.aspect_ratio
+				assign image_width = collectionImg.width
+			%}
+			{{
+				collectionImg
+				| image_url: width: 3840
+				| image_tag:
+					loading: 'lazy',
+					width: image_width,
+					height: image_height,
+					sizes: '100vw',
+					widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+			}}
+		{%- else -%}
+			{{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
+		{% endif %}
+	</a>
+	<div class="collection-card__text">
+		<h3 class="collection-card__title">
+			<a
+				class="full-unstyled-link"
+				{% if block_collection != blank %}
+					href="{{ url }}"
+				{% endif %}
+			>
+				{% if block_collection != blank %}
+					{{ collection_title }}
+				{% else %}
+					{{- 'general.card.collection_name' | t -}}
+				{% endif %}
+			</a>
+		</h3>
+		{% if show_collection_desc %}
+			<div class="collection-card__desc richtext__content">
+				{%- if collection_desc != blank -%}
+					{{ collection_desc }}
+				{% else %}
+					{{ 'collection.collection_desc' | t }}
+				{%- endif -%}
+			</div>
+		{% endif %}
+	</div>
+</div>
