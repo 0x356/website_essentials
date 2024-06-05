@@ -1,2 +1,2 @@
-# kurashi_website_essentials
-Kurashi Website, made with Shopify's Essentials theme
+# Kurashi Webstore
+Code for Kurashi Collective's, made with Shopify's Essentials theme
