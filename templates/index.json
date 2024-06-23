@@ -29,38 +29,6 @@
             "overlay_opacity": 30
           }
         },
-        "slideshow_item_JdXX3X": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "background-2",
-            "image": "shopify:\/\/shop_images\/Screenshot2024-05-07at23.13.39.png",
-            "badge": "",
-            "heading": "",
-            "text": "",
-            "primary_button_label": "",
-            "primary_button_link": "",
-            "primary_button_style": "primary",
-            "secondary_button_label": "",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
-        },
-        "slideshow_item-3": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify:\/\/shop_images\/000007250014.jpg",
-            "badge": "",
-            "heading": "",
-            "text": "",
-            "primary_button_label": "",
-            "primary_button_link": "",
-            "primary_button_style": "primary",
-            "secondary_button_label": "",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
-        },
         "slideshow_item_XQmENC": {
           "type": "slideshow_item",
           "disabled": true,
@@ -77,12 +45,11 @@
             "overlay_opacity": 30
           }
         },
-        "slideshow_item_dE8EXD": {
+        "slideshow_item_ATaTqA": {
           "type": "slideshow_item",
-          "disabled": true,
           "settings": {
             "color_scheme": "background-2",
-            "image": "shopify:\/\/shop_images\/Screenshot2024-05-07at22.50.50.png",
+            "image": "shopify:\/\/shop_images\/DKArtboard1_3.png",
             "badge": "",
             "heading": "",
             "text": "",
@@ -97,12 +64,9 @@
       },
       "block_order": [
         "slideshow_item-2",
-        "slideshow_item_JdXX3X",
-        "slideshow_item-3",
         "slideshow_item_XQmENC",
-        "slideshow_item_dE8EXD"
+        "slideshow_item_ATaTqA"
       ],
-      "disabled": true,
       "settings": {
         "section_layout": "overlay",
         "section_size": "full",
@@ -223,67 +187,6 @@
         "show_collection_name": true,
         "show_color_swatch": false,
         "show_desc": false,
-        "margin_top": "no-indent",
-        "margin_bottom": "xs"
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "subheading": "Heading",
-            "text": "<p>Some description<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "tertiary"
-          }
-        },
-        "column-2": {
-          "type": "column",
-          "settings": {
-            "subheading": "Heading",
-            "text": "<p>Some description<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "tertiary"
-          }
-        },
-        "column-3": {
-          "type": "column",
-          "settings": {
-            "subheading": "Heading",
-            "text": "<p>Some description<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "tertiary"
-          }
-        },
-        "column-4": {
-          "type": "column",
-          "settings": {
-            "subheading": "Heading",
-            "text": "<p>Some description<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "tertiary"
-          }
-        }
-      },
-      "block_order": [
-        "column-1",
-        "column-2",
-        "column-3",
-        "column-4"
-      ],
-      "disabled": true,
-      "settings": {
-        "multicolumn_to_show": 4,
-        "horizontal_alignment": "left",
-        "object_fit": "cover",
-        "img_size": "small",
-        "swipe_on_mobile": true,
         "margin_top": "no-indent",
         "margin_bottom": "xs"
       }
@@ -455,7 +358,6 @@
     "slideshow",
     "featured_product_Arr6nV",
     "popular-products",
-    "multicolumn",
     "grid-banner",
     "blog-post",
     "collapsible-content",
