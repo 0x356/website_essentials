@@ -99,6 +99,79 @@
         "margin_bottom": "xs"
       }
     },
+    "featured_product_XJpDCx": {
+      "type": "featured-product",
+      "blocks": {
+        "tags_wzjPr6": {
+          "type": "tags",
+          "settings": {
+          }
+        },
+        "title_VJbnWp": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "icon_with_text_DhgVC4": {
+          "type": "icon-with-text",
+          "settings": {
+            "show_icon": false,
+            "heading": ""
+          }
+        },
+        "price_nTcML6": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "variant_picker_LDgKqC": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_size_guide": true,
+            "size_guide_header": "Header",
+            "size_guide_decription": "",
+            "size_guide_text": "Size Guide",
+            "page": ""
+          }
+        },
+        "buy_buttons_C8jyWg": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_quantity": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "share_nVhHQz": {
+          "type": "share",
+          "settings": {
+            "show_share_facebook": true,
+            "show_share_twitter": true,
+            "show_share_telegram": true,
+            "show_share_copy": true
+          }
+        }
+      },
+      "block_order": [
+        "tags_wzjPr6",
+        "title_VJbnWp",
+        "icon_with_text_DhgVC4",
+        "price_nTcML6",
+        "variant_picker_LDgKqC",
+        "buy_buttons_C8jyWg",
+        "share_nVhHQz"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "product": "kurashi-baseball-tee",
+        "show_two": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
     "featured_product_Arr6nV": {
       "type": "featured-product",
       "blocks": {
@@ -121,6 +194,7 @@
         },
         "price_3Jrc8z": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
@@ -368,89 +442,17 @@
         "padding_top": "s",
         "padding_bottom": "s"
       }
-    },
-    "featured_product_XJpDCx": {
-      "type": "featured-product",
-      "blocks": {
-        "tags_wzjPr6": {
-          "type": "tags",
-          "settings": {
-          }
-        },
-        "title_VJbnWp": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "icon_with_text_DhgVC4": {
-          "type": "icon-with-text",
-          "settings": {
-            "show_icon": false,
-            "heading": ""
-          }
-        },
-        "price_nTcML6": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker_LDgKqC": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "show_size_guide": true,
-            "size_guide_header": "Header",
-            "size_guide_decription": "",
-            "size_guide_text": "Size Guide",
-            "page": ""
-          }
-        },
-        "buy_buttons_C8jyWg": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_quantity": false,
-            "show_gift_card_recipient": false
-          }
-        },
-        "share_nVhHQz": {
-          "type": "share",
-          "settings": {
-            "show_share_facebook": true,
-            "show_share_twitter": true,
-            "show_share_telegram": true,
-            "show_share_copy": true
-          }
-        }
-      },
-      "block_order": [
-        "tags_wzjPr6",
-        "title_VJbnWp",
-        "icon_with_text_DhgVC4",
-        "price_nTcML6",
-        "variant_picker_LDgKqC",
-        "buy_buttons_C8jyWg",
-        "share_nVhHQz"
-      ],
-      "settings": {
-        "heading": "",
-        "description": "",
-        "product": "kurashi-baseball-tee",
-        "show_two": true,
-        "margin_top": "s",
-        "margin_bottom": "s"
-      }
     }
   },
   "order": [
     "slideshow",
+    "featured_product_XJpDCx",
     "featured_product_Arr6nV",
     "popular-products",
     "grid-banner",
     "blog-post",
     "collapsible-content",
     "blog_post_g6BKkn",
-    "image_banner_HVU3Y4",
-    "featured_product_XJpDCx"
+    "image_banner_HVU3Y4"
   ]
 }
