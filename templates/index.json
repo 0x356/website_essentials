@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow": {
@@ -108,6 +117,78 @@
         "slide_effects": "slide",
         "margin_top": "no-indent",
         "margin_bottom": "xs"
+      }
+    },
+    "featured_product_Arr6nV": {
+      "type": "featured-product",
+      "blocks": {
+        "tags_hxcbTe": {
+          "type": "tags",
+          "settings": {
+          }
+        },
+        "title_CtCBCj": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "icon_with_text_6QNGJJ": {
+          "type": "icon-with-text",
+          "settings": {
+            "show_icon": false,
+            "heading": "Heading"
+          }
+        },
+        "price_3Jrc8z": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_LK6yRC": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_size_guide": true,
+            "size_guide_header": "Header",
+            "size_guide_decription": "",
+            "size_guide_text": "Size Guide",
+            "page": ""
+          }
+        },
+        "buy_buttons_AVjnd6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_quantity": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "share_JjCPqR": {
+          "type": "share",
+          "settings": {
+            "show_share_facebook": true,
+            "show_share_twitter": true,
+            "show_share_telegram": true,
+            "show_share_copy": true
+          }
+        }
+      },
+      "block_order": [
+        "tags_hxcbTe",
+        "title_CtCBCj",
+        "icon_with_text_6QNGJJ",
+        "price_3Jrc8z",
+        "variant_picker_LK6yRC",
+        "buy_buttons_AVjnd6",
+        "share_JjCPqR"
+      ],
+      "settings": {
+        "heading": "Kurashi x Obey",
+        "description": "",
+        "product": "obey-sweater",
+        "show_two": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
       }
     },
     "popular-products": {
@@ -329,6 +410,7 @@
   },
   "order": [
     "slideshow",
+    "featured_product_Arr6nV",
     "popular-products",
     "multicolumn",
     "grid-banner",
