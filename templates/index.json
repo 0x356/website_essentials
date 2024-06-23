@@ -428,6 +428,27 @@
         "margin_top": "no-indent",
         "margin_bottom": "xs"
       }
+    },
+    "image_banner_HVU3Y4": {
+      "type": "image-banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "",
+        "heading": "",
+        "description": "",
+        "text_align": "left",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image": "shopify:\/\/shop_images\/000007250002.jpg",
+        "image_size": "small",
+        "overlay_opacity": 20,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
     }
   },
   "order": [
@@ -438,6 +459,7 @@
     "grid-banner",
     "blog-post",
     "collapsible-content",
-    "blog_post_g6BKkn"
+    "blog_post_g6BKkn",
+    "image_banner_HVU3Y4"
   ]
 }
