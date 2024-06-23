@@ -311,7 +311,7 @@
         "show_collection_name": true,
         "show_color_swatch": false,
         "show_desc": false,
-        "margin_top": "no-indent",
+        "margin_top": "s",
         "margin_bottom": "xs"
       }
     },
