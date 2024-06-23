@@ -285,20 +285,16 @@
     },
     "popular-products": {
       "type": "popular-products",
-      "disabled": true,
       "settings": {
         "product_list": [
-          "iseline-graphic-tee",
-          "kurashi-racing-team-cap",
-          "kurashi-racin-team-cap",
-          "kurashi-racing-team-cap-grey",
-          "sjauwltje-scarf",
-          "soundsystem-graphic-tee",
-          "stenen-hoofd-graphic-tee"
+          "baby-tee-korsou",
+          "baby-tee-10fl",
+          "baseball-cap",
+          "corduroy-cap-green"
         ],
-        "heading": "Heading",
-        "description": "<p>Description<\/p>",
-        "button_label": "Button label",
+        "heading": "",
+        "description": "",
+        "button_label": "",
         "button_link": "",
         "button_style": "secondary",
         "autoplay": false,
