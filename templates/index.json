@@ -411,10 +411,10 @@
       "type": "blog-post",
       "settings": {
         "posts_count": 4,
-        "heading": "Heading",
+        "heading": "",
         "per_row": 4,
         "show_two_cards": true,
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "button_style": "secondary",
         "blog": "news",
