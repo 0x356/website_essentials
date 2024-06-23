@@ -14,6 +14,7 @@
       "blocks": {
         "slideshow_item-2": {
           "type": "slideshow_item",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "video": "shopify:\/\/files\/videos\/Kurashi_webshop_banner.mp4",
@@ -30,7 +31,6 @@
         },
         "slideshow_item_JdXX3X": {
           "type": "slideshow_item",
-          "disabled": true,
           "settings": {
             "color_scheme": "background-2",
             "image": "shopify:\/\/shop_images\/Screenshot2024-05-07at23.13.39.png",
@@ -47,10 +47,9 @@
         },
         "slideshow_item-3": {
           "type": "slideshow_item",
-          "disabled": true,
           "settings": {
             "color_scheme": "",
-            "image": "shopify:\/\/shop_images\/Screenshot2024-05-07at23.10.02.png",
+            "image": "shopify:\/\/shop_images\/000007250014.jpg",
             "badge": "",
             "heading": "",
             "text": "",
@@ -103,6 +102,7 @@
         "slideshow_item_XQmENC",
         "slideshow_item_dE8EXD"
       ],
+      "disabled": true,
       "settings": {
         "section_layout": "overlay",
         "section_size": "full",
@@ -406,6 +406,28 @@
         "enable_border_top": false,
         "enable_border_bottom": false
       }
+    },
+    "blog_post_g6BKkn": {
+      "type": "blog-post",
+      "settings": {
+        "posts_count": 4,
+        "heading": "Heading",
+        "per_row": 4,
+        "show_two_cards": true,
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style": "secondary",
+        "blog": "news",
+        "image_ratio": "landscape",
+        "image_fit": "cover",
+        "show_image": true,
+        "show_tags": true,
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "xs"
+      }
     }
   },
   "order": [
@@ -415,6 +437,7 @@
     "multicolumn",
     "grid-banner",
     "blog-post",
-    "collapsible-content"
+    "collapsible-content",
+    "blog_post_g6BKkn"
   ]
 }
