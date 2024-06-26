@@ -22,13 +22,6 @@
           "settings": {
           }
         },
-        "icon-with-text": {
-          "type": "icon-with-text",
-          "settings": {
-            "show_icon": false,
-            "heading": "Some description"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -56,7 +49,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "description_heading": "Description"
+            "description_heading": ""
           }
         },
         "about": {
@@ -70,7 +63,6 @@
       "block_order": [
         "tags",
         "title",
-        "icon-with-text",
         "price",
         "variant_picker",
         "buy_buttons",
