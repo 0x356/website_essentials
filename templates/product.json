@@ -32,7 +32,7 @@
           "settings": {
             "picker_type": "button",
             "show_size_guide": false,
-            "size_guide_header": "Header",
+            "size_guide_header": "",
             "size_guide_decription": "",
             "size_guide_text": "Size Guide",
             "page": ""
