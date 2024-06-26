@@ -12,18 +12,18 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slideshow_item-2": {
+        "slideshow_item_hdF9Rm": {
           "type": "slideshow_item",
           "settings": {
-            "color_scheme": "",
-            "video": "shopify:\/\/files\/videos\/Kurashi_webshop_banner.mp4",
-            "badge": "",
-            "heading": "Spring Summer 2024",
-            "text": "Available Online Now",
-            "primary_button_label": "",
+            "color_scheme": "background-2",
+            "image": "shopify:\/\/shop_images\/Korsou_main_complex.jpg",
+            "badge": "Subtitle",
+            "heading": "Slide Heading",
+            "text": "Text from here describes your slide",
+            "primary_button_label": "Button label",
             "primary_button_link": "",
             "primary_button_style": "primary",
-            "secondary_button_label": "",
+            "secondary_button_label": "Button label",
             "secondary_button_link": "",
             "overlay_opacity": 30
           }
@@ -60,14 +60,14 @@
             "overlay_opacity": 30
           }
         },
-        "slideshow_item_jAXzCg": {
+        "slideshow_item-2": {
           "type": "slideshow_item",
           "settings": {
-            "color_scheme": "background-2",
-            "image": "shopify:\/\/shop_images\/000007250019.jpg",
+            "color_scheme": "",
+            "video": "shopify:\/\/files\/videos\/Kurashi_webshop_banner.mp4",
             "badge": "",
-            "heading": "",
-            "text": "",
+            "heading": "Spring Summer 2024",
+            "text": "Available Online Now",
             "primary_button_label": "",
             "primary_button_link": "",
             "primary_button_style": "primary",
@@ -75,30 +75,13 @@
             "secondary_button_link": "",
             "overlay_opacity": 30
           }
-        },
-        "slideshow_item_hdF9Rm": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "background-2",
-            "image": "shopify:\/\/shop_images\/Korsou_main_complex.jpg",
-            "badge": "Subtitle",
-            "heading": "Slide Heading",
-            "text": "Text from here describes your slide",
-            "primary_button_label": "Button label",
-            "primary_button_link": "",
-            "primary_button_style": "primary",
-            "secondary_button_label": "Button label",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
-        "slideshow_item-2",
+        "slideshow_item_hdF9Rm",
         "slideshow_item_TCim9w",
         "slideshow_item_XQmENC",
-        "slideshow_item_jAXzCg",
-        "slideshow_item_hdF9Rm"
+        "slideshow_item-2"
       ],
       "settings": {
         "section_layout": "overlay",
