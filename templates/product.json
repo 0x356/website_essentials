@@ -74,14 +74,14 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "Heading",
-        "description": "<p>Description<\/p>",
+        "heading": "",
+        "description": "",
         "autoplay": false,
         "stop_autoplay": true,
         "show_arrows": false,
         "slideshow_speed": 1.1,
         "slideshow_delay": 3,
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "button_style": "secondary",
         "image_ratio": "portrait",
