@@ -87,7 +87,7 @@
         "section_layout": "overlay",
         "section_size": "full",
         "content_alignment": "center",
-        "image_size": "21\/9",
+        "image_size": "medium",
         "is_autoplay": false,
         "is_hover_stop_autoplay": true,
         "show_arrows": true,
