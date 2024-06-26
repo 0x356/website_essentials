@@ -13,6 +13,26 @@
   "sections": {
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_collection_9z3qnf": {
+          "type": "mega_menu_collection",
+          "settings": {
+            "menu_trigger": "WEBSHOP",
+            "collection_list": [
+              "ss24"
+            ],
+            "image_ratio": "portrait",
+            "show_collection_desc": false,
+            "primary_button_label": "Button label",
+            "primary_button_link": "",
+            "secondary_button_label": "Button label",
+            "secondary_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_collection_9z3qnf"
+      ],
       "settings": {
         "height": 115,
         "logo": "shopify:\/\/shop_images\/Baseball_shirtSelectie_3_31db2954-e0db-440c-b27b-b6528a483ac6.png",
