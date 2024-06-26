@@ -51,13 +51,6 @@
           "settings": {
             "description_heading": ""
           }
-        },
-        "about": {
-          "type": "about",
-          "settings": {
-            "about_heading": "Some title",
-            "about_heading_content": "<p>Some description<\/p>"
-          }
         }
       },
       "block_order": [
@@ -66,8 +59,7 @@
         "price",
         "variant_picker",
         "buy_buttons",
-        "description",
-        "about"
+        "description"
       ],
       "settings": {
         "image_gallery_collage": "stacked",
