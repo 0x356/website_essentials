@@ -32,9 +32,9 @@
       "type": "page",
       "settings": {
         "page": "kurashi-fm",
-        "margin_top": "l",
+        "margin_top": "xs",
         "margin_bottom": "xs",
-        "padding_top": "l",
+        "padding_top": "xs",
         "padding_bottom": "m"
       }
     }
