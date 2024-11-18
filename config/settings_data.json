@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "type_section_header_font": "inter_n9",
@@ -23,12 +23,17 @@
     "type_footer_menu_font": "inter_n9",
     "type_popups_heading_font": "inter_n8",
     "type_popups_text_font": "inter_n4",
-    "social_instagram_link": "https:\/\/www.instagram.com\/kurashi.collective\/",
-    "favicon": "shopify:\/\/shop_images\/Baseball_shirtSelectie_3_31db2954-e0db-440c-b27b-b6528a483ac6.png",
+    "social_instagram_link": "https://www.instagram.com/kurashi.collective/",
+    "favicon": "shopify://shop_images/Baseball_shirtSelectie_3_31db2954-e0db-440c-b27b-b6528a483ac6.png",
     "cart_type": "drawer",
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
+    "blocks": {
+      "15599951759576395258": {
+        "type": "shopify://apps/mida-replay-heatmaps/blocks/mida_recorder/e4c350c5-eabf-426d-8014-47ef50412bd0",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -192,8 +197,7 @@
           }
         },
         "background-3": {
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "type_section_header_font": "inter_n9",
@@ -210,9 +214,7 @@
       "type_footer_menu_font": "inter_n9",
       "type_popups_heading_font": "inter_n8",
       "type_popups_text_font": "inter_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Quicksand": {
       "color_schemes": {
@@ -269,8 +271,7 @@
           }
         },
         "background-3": {
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "type_header_font": "inter_n8",
@@ -286,9 +287,7 @@
       "type_footer_menu_font": "inter_n9",
       "type_popups_heading_font": "inter_n8",
       "type_popups_text_font": "inter_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Slate": {
       "color_schemes": {
@@ -384,9 +383,7 @@
       "type_footer_menu_font": "inter_n9",
       "type_popups_heading_font": "inter_n8",
       "type_popups_text_font": "inter_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Neon": {
       "color_schemes": {
@@ -443,8 +440,7 @@
           }
         },
         "background-3": {
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "type_header_font": "inter_n8",
@@ -460,9 +456,7 @@
       "type_footer_menu_font": "inter_n9",
       "type_popups_heading_font": "inter_n8",
       "type_popups_text_font": "inter_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Pinewood": {
       "color_schemes": {
@@ -519,8 +513,7 @@
           }
         },
         "background-3": {
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "type_header_font": "inter_n8",
@@ -536,9 +529,7 @@
       "type_footer_menu_font": "inter_n9",
       "type_popups_heading_font": "inter_n8",
       "type_popups_text_font": "inter_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     }
   }
 }
