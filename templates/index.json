@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -16,7 +16,7 @@
           "type": "slideshow_item",
           "settings": {
             "color_scheme": "background-2",
-            "image": "shopify:\/\/shop_images\/Korsou_main_complex.jpg",
+            "image": "shopify://shop_images/Korsou_main_complex.jpg",
             "badge": "",
             "heading": "SS24",
             "text": "Now available on our webshop",
@@ -32,7 +32,7 @@
           "type": "slideshow_item",
           "settings": {
             "color_scheme": "background-2",
-            "image": "shopify:\/\/shop_images\/000007250029.jpg",
+            "image": "shopify://shop_images/000007250029.jpg",
             "badge": "",
             "heading": "",
             "text": "",
@@ -48,7 +48,7 @@
           "type": "slideshow_item",
           "settings": {
             "color_scheme": "background-2",
-            "image": "shopify:\/\/shop_images\/000007250016-2.png",
+            "image": "shopify://shop_images/000007250016-2.png",
             "badge": "",
             "heading": "",
             "text": "",
@@ -64,7 +64,7 @@
           "type": "slideshow_item",
           "settings": {
             "color_scheme": "",
-            "video": "shopify:\/\/files\/videos\/Kurashi_webshop_banner.mp4",
+            "video": "shopify://files/videos/Kurashi_webshop_banner.mp4",
             "badge": "",
             "heading": "Spring Summer 2024",
             "text": "Available Online Now",
@@ -99,18 +99,33 @@
         "margin_bottom": "xs"
       }
     },
+    "17320637147257803e": {
+      "type": "apps",
+      "blocks": {
+        "essential_countdown_app_block_YLi63p": {
+          "type": "shopify://apps/essential-countdown/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "settings": {
+            "id": "aw24"
+          }
+        }
+      },
+      "block_order": [
+        "essential_countdown_app_block_YLi63p"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "featured_product_XJpDCx": {
       "type": "featured-product",
       "blocks": {
         "tags_wzjPr6": {
           "type": "tags",
-          "settings": {
-          }
+          "settings": {}
         },
         "title_VJbnWp": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "icon_with_text_DhgVC4": {
           "type": "icon-with-text",
@@ -122,8 +137,7 @@
         "price_nTcML6": {
           "type": "price",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_LDgKqC": {
           "type": "variant_picker",
@@ -184,7 +198,7 @@
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
-        "image": "shopify:\/\/shop_images\/BlauwepetArtboard1_2_1a78c613-37bb-4746-8f38-66985126ef03.png",
+        "image": "shopify://shop_images/BlauwepetArtboard1_2_1a78c613-37bb-4746-8f38-66985126ef03.png",
         "image_size": "small",
         "overlay_opacity": 20,
         "margin_top": "no-indent",
@@ -198,13 +212,11 @@
       "blocks": {
         "tags_hxcbTe": {
           "type": "tags",
-          "settings": {
-          }
+          "settings": {}
         },
         "title_CtCBCj": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "icon_with_text_6QNGJJ": {
           "type": "icon-with-text",
@@ -216,8 +228,7 @@
         "price_3Jrc8z": {
           "type": "price",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_LK6yRC": {
           "type": "variant_picker",
@@ -313,7 +324,7 @@
             "badge": "Subtitle",
             "heading": "Heading",
             "heading_size": "h3",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "button_label": "Button label",
             "button_link": "",
             "button_style": "primary"
@@ -331,7 +342,7 @@
             "badge": "Subtitle",
             "heading": "Heading",
             "heading_size": "h3",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "button_label": "Button label",
             "button_link": "",
             "button_style": "primary"
@@ -355,21 +366,21 @@
           "type": "text-block",
           "settings": {
             "block_heading": "Heading",
-            "text": "<p>Description<\/p>"
+            "text": "<p>Description</p>"
           }
         },
         "text-block-2": {
           "type": "text-block",
           "settings": {
             "block_heading": "Heading",
-            "text": "<p>Description<\/p>"
+            "text": "<p>Description</p>"
           }
         },
         "text-block-3": {
           "type": "text-block",
           "settings": {
             "block_heading": "Heading",
-            "text": "<p>Description<\/p>"
+            "text": "<p>Description</p>"
           }
         }
       },
@@ -419,6 +430,7 @@
   },
   "order": [
     "slideshow",
+    "17320637147257803e",
     "featured_product_XJpDCx",
     "image_banner_HVU3Y4",
     "featured_product_Arr6nV",
