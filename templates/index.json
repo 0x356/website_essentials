@@ -226,6 +226,22 @@
             "secondary_button_link": "",
             "overlay_opacity": 30
           }
+        },
+        "slideshow_item_U8ngYk": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "background-2",
+            "image": "shopify://shop_images/000000040002-2.jpg",
+            "badge": "",
+            "heading": "AW24",
+            "text": "",
+            "primary_button_label": "",
+            "primary_button_link": "",
+            "primary_button_style": "primary",
+            "secondary_button_label": "",
+            "secondary_button_link": "",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
@@ -233,7 +249,8 @@
         "slideshow_item_TCim9w",
         "slideshow_item_XQmENC",
         "slideshow_item-2",
-        "slideshow_item_LbhPiQ"
+        "slideshow_item_LbhPiQ",
+        "slideshow_item_U8ngYk"
       ],
       "settings": {
         "section_layout": "overlay",
