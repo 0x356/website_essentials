@@ -14,6 +14,7 @@
       "blocks": {
         "essential_countdown_app_block_YLi63p": {
           "type": "shopify://apps/essential-countdown/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "disabled": true,
           "settings": {
             "id": "aw24"
           }
@@ -205,13 +206,30 @@
             "secondary_button_link": "",
             "overlay_opacity": 30
           }
+        },
+        "slideshow_item_LbhPiQ": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "background-2",
+            "image": "shopify://shop_images/000000040010_b427f90f-d8f6-4704-bee2-3f3767182b6a.jpg",
+            "badge": "Subtitle",
+            "heading": "Slide Heading",
+            "text": "Text from here describes your slide",
+            "primary_button_label": "Button label",
+            "primary_button_link": "",
+            "primary_button_style": "primary",
+            "secondary_button_label": "Button label",
+            "secondary_button_link": "",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "slideshow_item_hdF9Rm",
         "slideshow_item_TCim9w",
         "slideshow_item_XQmENC",
-        "slideshow_item-2"
+        "slideshow_item-2",
+        "slideshow_item_LbhPiQ"
       ],
       "settings": {
         "section_layout": "overlay",
@@ -290,6 +308,7 @@
         "buy_buttons_C8jyWg",
         "share_nVhHQz"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "description": "",
@@ -301,6 +320,7 @@
     },
     "image_banner_HVU3Y4": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "color_scheme": "scheme-62303921-9237-4592-af6d-9755734da7a5",
@@ -381,6 +401,7 @@
         "buy_buttons_AVjnd6",
         "share_JjCPqR"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Kurashi x Obey",
         "description": "",
