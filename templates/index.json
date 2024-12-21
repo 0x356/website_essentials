@@ -216,13 +216,13 @@
           "settings": {
             "color_scheme": "background-2",
             "image": "shopify://shop_images/000000040010_b427f90f-d8f6-4704-bee2-3f3767182b6a.jpg",
-            "badge": "Subtitle",
-            "heading": "Slide Heading",
-            "text": "Text from here describes your slide",
-            "primary_button_label": "Button label",
+            "badge": "",
+            "heading": "AW24",
+            "text": "",
+            "primary_button_label": "",
             "primary_button_link": "",
             "primary_button_style": "primary",
-            "secondary_button_label": "Button label",
+            "secondary_button_label": "",
             "secondary_button_link": "",
             "overlay_opacity": 30
           }
@@ -238,8 +238,8 @@
       "settings": {
         "section_layout": "overlay",
         "section_size": "full",
-        "content_alignment": "center",
-        "image_size": "medium",
+        "content_alignment": "left",
+        "image_size": "adapt",
         "is_autoplay": false,
         "is_hover_stop_autoplay": true,
         "show_arrows": true,
@@ -248,7 +248,7 @@
         "slideshow_delay": 3,
         "slide_effects": "slide",
         "margin_top": "no-indent",
-        "margin_bottom": "xs"
+        "margin_bottom": "no-indent"
       }
     },
     "featured_product_XJpDCx": {
