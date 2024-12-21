@@ -145,6 +145,7 @@
       "blocks": {
         "slideshow_item_hdF9Rm": {
           "type": "slideshow_item",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-2",
             "image": "shopify://shop_images/Korsou_main_complex.jpg",
@@ -161,6 +162,7 @@
         },
         "slideshow_item_TCim9w": {
           "type": "slideshow_item",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-2",
             "image": "shopify://shop_images/000007250029.jpg",
@@ -177,6 +179,7 @@
         },
         "slideshow_item_XQmENC": {
           "type": "slideshow_item",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-2",
             "image": "shopify://shop_images/000007250016-2.png",
@@ -193,6 +196,7 @@
         },
         "slideshow_item-2": {
           "type": "slideshow_item",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "video": "shopify://files/videos/Kurashi_webshop_banner.mp4",
