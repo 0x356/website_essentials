@@ -219,7 +219,7 @@
             "badge": "",
             "heading": "AW24",
             "text": "",
-            "primary_button_label": "",
+            "primary_button_label": "Shop now",
             "primary_button_link": "",
             "primary_button_style": "primary",
             "secondary_button_label": "",
@@ -449,38 +449,6 @@
         "margin_bottom": "s"
       }
     },
-    "popular-products": {
-      "type": "popular-products",
-      "settings": {
-        "product_list": [
-          "baby-tee-korsou",
-          "baby-tee-10fl",
-          "baseball-cap",
-          "corduroy-cap-green"
-        ],
-        "heading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "secondary",
-        "autoplay": false,
-        "stop_autoplay": true,
-        "show_arrows": true,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
-        "image_ratio": "portrait",
-        "image_fit": "cover",
-        "show_two_cards": true,
-        "show_secondary_image": true,
-        "show_sku": false,
-        "show_vendor": false,
-        "show_collection_name": true,
-        "show_color_swatch": false,
-        "show_desc": false,
-        "margin_top": "s",
-        "margin_bottom": "xs"
-      }
-    },
     "blog_post_g6BKkn": {
       "type": "blog-post",
       "settings": {
@@ -513,7 +481,6 @@
     "featured_product_XJpDCx",
     "image_banner_HVU3Y4",
     "featured_product_Arr6nV",
-    "popular-products",
     "blog_post_g6BKkn"
   ]
 }
