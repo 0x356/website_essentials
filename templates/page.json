@@ -32,7 +32,7 @@
       "type": "page",
       "settings": {
         "page": "events",
-        "margin_top": "xs",
+        "margin_top": "no-indent",
         "margin_bottom": "no-indent",
         "padding_top": "m",
         "padding_bottom": "m"

@@ -46,9 +46,16 @@
         "logo_position": "left",
         "enable_search": false
       }
+    },
+    "custom_liquid_Qtkp7k": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "custom_liquid_Qtkp7k"
   ]
 }
