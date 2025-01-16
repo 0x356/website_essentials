@@ -14,13 +14,11 @@
     "header": {
       "type": "header",
       "blocks": {
-        "mega_menu_collection_9z3qnf": {
+        "mega_menu_collection_GLiUzw": {
           "type": "mega_menu_collection",
           "settings": {
-            "menu_trigger": "SS24",
-            "collection_list": [
-              "ss24"
-            ],
+            "menu_trigger": "",
+            "collection_list": [],
             "image_ratio": "portrait",
             "show_collection_desc": false,
             "primary_button_label": "Button label",
@@ -31,7 +29,7 @@
         }
       },
       "block_order": [
-        "mega_menu_collection_9z3qnf"
+        "mega_menu_collection_GLiUzw"
       ],
       "settings": {
         "height": 115,

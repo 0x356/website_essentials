@@ -128,6 +128,7 @@
       "blocks": {
         "gsc_countdown_timer_countdown_EknrEJ": {
           "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "disabled": true,
           "settings": {
             "widget_id": "GSC-LARGE-ACQZnMPXiWRH"
           }
