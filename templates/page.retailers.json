@@ -25,6 +25,7 @@
     },
     "page_LAEkMV": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "kurashi-soundsystem-1",
         "margin_top": "no-indent",
