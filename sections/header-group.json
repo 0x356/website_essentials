@@ -50,7 +50,7 @@
     "custom_liquid_Qtkp7k": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/0/embed?mid=1BM2c-ORxtFwLP5Yoj2rGZK2AoEtVtZ8\" \n    width=\"100\" \n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
+        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/1/embed?mid=1DhPVVLJ8YAsPZGDNaQg4H1SlEPtHD5k\" \n    width=\"100%\" \n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
       }
     }
   },
