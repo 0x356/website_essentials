@@ -11,7 +11,6 @@
   "sections": {
     "page_NjUEnA": {
       "type": "page",
-      "disabled": true,
       "settings": {
         "page": "events",
         "margin_top": "no-indent",
@@ -27,17 +26,10 @@
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
       }
-    },
-    "custom_liquid_qx8txT": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/1/embed?mid=1DhPVVLJ8YAsPZGDNaQg4H1SlEPtHD5k\" \n    width=\"100%\" \n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
-      }
     }
   },
   "order": [
     "page_NjUEnA",
-    "main",
-    "custom_liquid_qx8txT"
+    "main"
   ]
 }
