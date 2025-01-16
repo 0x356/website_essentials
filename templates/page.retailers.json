@@ -12,7 +12,7 @@
     "custom_liquid_9PA48N": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/1/embed?mid=1DhPVVLJ8YAsPZGDNaQg4H1SlEPtHD5k\" \n    width=\"75%\"\n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
+        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/1/embed?mid=1DhPVVLJ8YAsPZGDNaQg4H1SlEPtHD5k\" \n    width=\"110%\"\n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
       }
     },
     "main": {
