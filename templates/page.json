@@ -9,6 +9,17 @@
  */
 {
   "sections": {
+    "page_NjUEnA": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "events",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -17,31 +28,16 @@
         "padding_bottom": "no-indent"
       }
     },
-    "page_LAEkMV": {
-      "type": "page",
-      "disabled": true,
+    "custom_liquid_qx8txT": {
+      "type": "custom-liquid",
       "settings": {
-        "page": "kurashi-soundsystem-1",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "m",
-        "padding_bottom": "m"
-      }
-    },
-    "page_NjUEnA": {
-      "type": "page",
-      "settings": {
-        "page": "events",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "m",
-        "padding_bottom": "m"
+        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/1/embed?mid=1DhPVVLJ8YAsPZGDNaQg4H1SlEPtHD5k\" \n    width=\"100%\" \n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
       }
     }
   },
   "order": [
+    "page_NjUEnA",
     "main",
-    "page_LAEkMV",
-    "page_NjUEnA"
+    "custom_liquid_qx8txT"
   ]
 }
