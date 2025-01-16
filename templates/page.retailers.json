@@ -17,9 +17,14 @@
         "padding_bottom": "no-indent"
       }
     },
+    "custom_liquid_9PA48N": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
     "page_LAEkMV": {
       "type": "page",
-      "disabled": true,
       "settings": {
         "page": "kurashi-soundsystem-1",
         "margin_top": "no-indent",
@@ -31,6 +36,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_9PA48N",
     "page_LAEkMV"
   ]
 }
