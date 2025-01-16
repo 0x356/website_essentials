@@ -11,6 +11,7 @@
   "sections": {
     "page_NjUEnA": {
       "type": "page",
+      "custom_css": [],
       "settings": {
         "page": "events",
         "margin_top": "no-indent",
