@@ -27,10 +27,21 @@
         "padding_top": "m",
         "padding_bottom": "m"
       }
+    },
+    "page_NjUEnA": {
+      "type": "page",
+      "settings": {
+        "page": "events",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
     }
   },
   "order": [
     "main",
-    "page_LAEkMV"
+    "page_LAEkMV",
+    "page_NjUEnA"
   ]
 }

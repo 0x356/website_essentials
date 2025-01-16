@@ -11,12 +11,6 @@
   "type": "footer",
   "name": "t:sections.footer.settings.footer-group.label",
   "sections": {
-    "custom_liquid_WYhQk6": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/0/embed?mid=1BM2c-ORxtFwLP5Yoj2rGZK2AoEtVtZ8\" \n    width=\"100%\" \n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -85,7 +79,6 @@
     }
   },
   "order": [
-    "custom_liquid_WYhQk6",
     "footer"
   ]
 }
