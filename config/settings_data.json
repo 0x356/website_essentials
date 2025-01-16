@@ -32,25 +32,6 @@
         "type": "shopify://apps/mida-replay-heatmaps/blocks/mida_recorder/e4c350c5-eabf-426d-8014-47ef50412bd0",
         "disabled": false,
         "settings": {}
-      },
-      "12312804495484127889": {
-        "type": "shopify://apps/instant-buy-ajax-mobile-cart/blocks/app-embed/eefb8d51-04c9-41e2-99bb-576e2ea34e99",
-        "disabled": false,
-        "settings": {
-          "text_color": "#ffffff",
-          "bg_color": "#FE980F",
-          "text_label": "Buy now"
-        }
-      },
-      "sticky-cart-by-uplinkly": {
-        "type": "shopify://apps/sticky-cart-by-uplinkly/blocks/sticky-cart/25fba6ad-75e4-408b-a261-b223e0c71c8b",
-        "disabled": true,
-        "settings": {}
-      },
-      "sticky-cart-animator-by-uplinkly": {
-        "type": "shopify://apps/sticky-cart-by-uplinkly/blocks/cart-animator/25fba6ad-75e4-408b-a261-b223e0c71c8b",
-        "disabled": true,
-        "settings": {}
       }
     },
     "color_schemes": {

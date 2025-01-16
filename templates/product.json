@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,18 +14,15 @@
       "blocks": {
         "tags": {
           "type": "tags",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -61,6 +58,7 @@
         "buy_buttons",
         "description"
       ],
+      "custom_css": [],
       "settings": {
         "image_gallery_collage": "stacked",
         "enable_autoheight": false,
@@ -69,6 +67,12 @@
         "image_fit": "cover",
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
+      }
+    },
+    "custom_liquid_d4XYc9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/0/embed?mid=1BM2c-ORxtFwLP5Yoj2rGZK2AoEtVtZ8\" \n    width=\"70%\" \n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
       }
     },
     "product-recommendations": {
@@ -100,6 +104,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_d4XYc9",
     "product-recommendations"
   ]
 }
