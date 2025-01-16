@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "t:sections.header.settings.header-group.label",
@@ -35,7 +35,7 @@
       ],
       "settings": {
         "height": 115,
-        "logo": "shopify:\/\/shop_images\/Baseball_shirtSelectie_3_31db2954-e0db-440c-b27b-b6528a483ac6.png",
+        "logo": "shopify://shop_images/Baseball_shirtSelectie_3_31db2954-e0db-440c-b27b-b6528a483ac6.png",
         "logo_width": 240,
         "menu": "main-menu",
         "color_scheme": "scheme-62303921-9237-4592-af6d-9755734da7a5",
@@ -46,9 +46,16 @@
         "logo_position": "left",
         "enable_search": false
       }
+    },
+    "custom_liquid_Qtkp7k": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/0/embed?mid=1BM2c-ORxtFwLP5Yoj2rGZK2AoEtVtZ8\" \n    width=\"100\" \n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "custom_liquid_Qtkp7k"
   ]
 }
