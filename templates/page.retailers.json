@@ -9,18 +9,18 @@
  */
 {
   "sections": {
+    "custom_liquid_9PA48N": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/1/embed?mid=1DhPVVLJ8YAsPZGDNaQg4H1SlEPtHD5k\" \n    width=\"100%\"\n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
-      }
-    },
-    "custom_liquid_9PA48N": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/1/embed?mid=1DhPVVLJ8YAsPZGDNaQg4H1SlEPtHD5k\" \n    width=\"100%\"\n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
       }
     },
     "page_LAEkMV": {
