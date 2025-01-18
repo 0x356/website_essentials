@@ -69,12 +69,6 @@
         "padding_bottom": "no-indent"
       }
     },
-    "custom_liquid_d4XYc9": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<iframe \n    src=\"https://www.google.com/maps/d/u/0/embed?mid=1BM2c-ORxtFwLP5Yoj2rGZK2AoEtVtZ8\" \n    width=\"70%\" \n    height=\"500\" \n    frameborder=\"0\" \n    style=\"border:0;\" \n    allowfullscreen>\n</iframe>"
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -104,7 +98,6 @@
   },
   "order": [
     "main",
-    "custom_liquid_d4XYc9",
     "product-recommendations"
   ]
 }
