@@ -48,34 +48,10 @@
         "padding_top": "m",
         "padding_bottom": "m"
       }
-    },
-    "products_grid_wfi87D": {
-      "type": "products-grid",
-      "settings": {
-        "products_per_page": 8,
-        "sort": "alphabetical",
-        "heading": "SS24",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "secondary",
-        "show_two_cards": false,
-        "show_secondary_image": true,
-        "show_sku": false,
-        "show_vendor": false,
-        "show_collection_name": true,
-        "show_desc": false,
-        "show_color_swatch": false,
-        "image_ratio": "portrait",
-        "image_fit": "cover",
-        "margin_top": "no-indent",
-        "margin_bottom": "xs"
-      }
     }
   },
   "order": [
     "banner",
-    "product-grid",
-    "products_grid_wfi87D"
+    "product-grid"
   ]
 }
