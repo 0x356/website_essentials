@@ -221,7 +221,7 @@
             "heading": "AW24",
             "text": "",
             "primary_button_label": "Shop now",
-            "primary_button_link": "",
+            "primary_button_link": "https://kurashicollective.com/collections/aw24",
             "primary_button_style": "primary",
             "secondary_button_label": "",
             "secondary_button_link": "",
@@ -306,7 +306,6 @@
         },
         "price_nTcML6": {
           "type": "price",
-          "disabled": true,
           "settings": {}
         },
         "variant_picker_LDgKqC": {
@@ -399,7 +398,6 @@
         },
         "price_3Jrc8z": {
           "type": "price",
-          "disabled": true,
           "settings": {}
         },
         "variant_picker_LK6yRC": {
