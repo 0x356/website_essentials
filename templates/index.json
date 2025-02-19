@@ -46,7 +46,7 @@
             "heading_size": "h3",
             "text": "",
             "button_label": "SHOP NOW",
-            "button_link": "shopify://collections",
+            "button_link": "shopify://collections/mvp-collection",
             "button_style": "primary"
           }
         }
@@ -105,7 +105,7 @@
             "heading": "DONT MISS OUT",
             "text": "USE CODE \"MVP\" FOR 15% OFF",
             "primary_button_label": "CLAIM DISCOUNT",
-            "primary_button_link": "",
+            "primary_button_link": "shopify://collections/mvp-collection",
             "primary_button_style": "secondary",
             "secondary_button_label": "",
             "secondary_button_link": "",
