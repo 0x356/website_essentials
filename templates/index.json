@@ -9,273 +9,119 @@
  */
 {
   "sections": {
-    "17320637147257803e": {
-      "type": "apps",
-      "blocks": {
-        "essential_countdown_app_block_YLi63p": {
-          "type": "shopify://apps/essential-countdown/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-          "disabled": true,
-          "settings": {
-            "id": "aw24"
-          }
-        }
-      },
-      "block_order": [
-        "essential_countdown_app_block_YLi63p"
-      ],
+    "main": {
+      "type": "main-page",
+      "disabled": true,
       "settings": {
-        "include_margins": true
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
       }
     },
-    "grid-banner": {
+    "page_LAEkMV": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "kurashi-soundsystem-1",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    },
+    "grid_banner_LGV3NC": {
       "type": "grid-banner",
       "blocks": {
-        "column-1": {
+        "column_xzNrnW": {
           "type": "column",
           "settings": {
             "card_type": "overlay",
-            "color_scheme": "",
-            "overlay_opacity": 20,
-            "card_width": "2",
-            "min_height": "small",
+            "color_scheme": "background-1",
+            "video": "shopify://files/videos/AQPyXjNLX5cTy6yC1174LLtnWscnnS7XL8BF4PWr6icvF8YJSFfFkbJ5JIoZZtvxo8mQwONla8BP38uJjZr6WH_f0aBc-z6jLo-TRuM.mp4",
+            "overlay_opacity": 40,
+            "card_width": "1",
+            "min_height": "medium",
             "align_content": "left",
-            "badge": "Subtitle",
-            "heading": "Heading",
+            "badge": "",
+            "heading": "Shop Our MVP Collection",
             "heading_size": "h3",
-            "text": "<p></p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "primary"
-          }
-        },
-        "column-2": {
-          "type": "column",
-          "settings": {
-            "card_type": "overlay",
-            "color_scheme": "",
-            "overlay_opacity": 20,
-            "card_width": "2",
-            "min_height": "small",
-            "align_content": "left",
-            "badge": "Subtitle",
-            "heading": "Heading",
-            "heading_size": "h3",
-            "text": "<p></p>",
-            "button_label": "Button label",
-            "button_link": "",
+            "text": "",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections",
             "button_style": "primary"
           }
         }
       },
       "block_order": [
-        "column-1",
-        "column-2"
+        "column_xzNrnW"
       ],
-      "disabled": true,
       "settings": {
         "margin_top": "no-indent",
         "margin_bottom": "xs"
       }
     },
-    "collapsible-content": {
-      "type": "collapsible-content",
-      "blocks": {
-        "text-block-1": {
-          "type": "text-block",
-          "settings": {
-            "block_heading": "Heading",
-            "text": "<p>Description</p>"
-          }
-        },
-        "text-block-2": {
-          "type": "text-block",
-          "settings": {
-            "block_heading": "Heading",
-            "text": "<p>Description</p>"
-          }
-        },
-        "text-block-3": {
-          "type": "text-block",
-          "settings": {
-            "block_heading": "Heading",
-            "text": "<p>Description</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text-block-1",
-        "text-block-2",
-        "text-block-3"
-      ],
-      "disabled": true,
+    "popular_products_LP4EMj": {
+      "type": "popular-products",
       "settings": {
-        "color_scheme": "background-1",
-        "heading": "Heading",
-        "description": "Description",
-        "button_label": "Button label",
-        "button_link": "",
+        "product_list": [
+          "flight-club-v2-hoodie2-colors",
+          "live-while-youre-alive-tee",
+          "no-friends-tee-rhinestones",
+          "red-striped-joggers",
+          "skull-hoodie",
+          "find-peace-tee-rhinestones"
+        ],
+        "heading": "Newly Released",
+        "description": "<p>DONT MISS OUT</p>",
+        "button_label": "GET YOURS NOW",
+        "button_link": "shopify://collections/all",
         "button_style": "primary",
-        "margin_top": "xs",
-        "margin_bottom": "xs",
-        "padding_top": "xs",
-        "padding_bottom": "xs",
-        "enable_border_top": false,
-        "enable_border_bottom": false
+        "autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_two_cards": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_collection_name": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
       }
     },
-    "1734744933c243035f": {
-      "type": "apps",
-      "blocks": {
-        "gsc_countdown_timer_countdown_EknrEJ": {
-          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
-          "disabled": true,
-          "settings": {
-            "widget_id": "GSC-LARGE-ACQZnMPXiWRH"
-          }
-        }
-      },
-      "block_order": [
-        "gsc_countdown_timer_countdown_EknrEJ"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "slideshow": {
+    "slideshow_FKzEwT": {
       "type": "slideshow",
       "blocks": {
-        "slideshow_item_hdF9Rm": {
+        "slideshow_item_j6BkPr": {
           "type": "slideshow_item",
-          "disabled": true,
           "settings": {
             "color_scheme": "background-2",
-            "image": "shopify://shop_images/Korsou_main_complex.jpg",
-            "badge": "",
-            "heading": "SS24",
-            "text": "Now available on our webshop",
-            "primary_button_label": "SHOP NOW",
+            "video": "shopify://files/videos/AQMz1nmKBjtOlEFAC2PJ-wRUoVX-S3XTBRt4Jem4WL1urXc67LosoEZU1-UTn32rJIoLah_bPPi2AnrxUY8R4EbeRykQTAKqLbC_L2g.mp4",
+            "badge": "\"Somewhere in Vegas\"",
+            "heading": "DONT MISS OUT",
+            "text": "USE CODE \"MVP\" FOR 15% OFF",
+            "primary_button_label": "CLAIM DISCOUNT",
             "primary_button_link": "",
-            "primary_button_style": "primary",
+            "primary_button_style": "secondary",
             "secondary_button_label": "",
             "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
-        },
-        "slideshow_item_TCim9w": {
-          "type": "slideshow_item",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "background-2",
-            "image": "shopify://shop_images/000007250029.jpg",
-            "badge": "",
-            "heading": "",
-            "text": "",
-            "primary_button_label": "",
-            "primary_button_link": "",
-            "primary_button_style": "primary",
-            "secondary_button_label": "",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
-        },
-        "slideshow_item_XQmENC": {
-          "type": "slideshow_item",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "background-2",
-            "image": "shopify://shop_images/000007250016-2.png",
-            "badge": "",
-            "heading": "",
-            "text": "",
-            "primary_button_label": "",
-            "primary_button_link": "",
-            "primary_button_style": "primary",
-            "secondary_button_label": "",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
-        },
-        "slideshow_item-2": {
-          "type": "slideshow_item",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "video": "shopify://files/videos/Kurashi_webshop_banner.mp4",
-            "badge": "",
-            "heading": "Spring Summer 2024",
-            "text": "Available Online Now",
-            "primary_button_label": "",
-            "primary_button_link": "",
-            "primary_button_style": "primary",
-            "secondary_button_label": "",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
-        },
-        "slideshow_item_LbhPiQ": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "background-2",
-            "image": "shopify://shop_images/000000040010_b427f90f-d8f6-4704-bee2-3f3767182b6a.jpg",
-            "badge": "",
-            "heading": "AW24",
-            "text": "",
-            "primary_button_label": "Shop now",
-            "primary_button_link": "https://kurashicollective.com/collections/aw24",
-            "primary_button_style": "primary",
-            "secondary_button_label": "",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
-        },
-        "slideshow_item_U8ngYk": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "background-2",
-            "image": "shopify://shop_images/000000040002-2.jpg",
-            "badge": "",
-            "heading": "AW24",
-            "text": "",
-            "primary_button_label": "",
-            "primary_button_link": "",
-            "primary_button_style": "primary",
-            "secondary_button_label": "",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
-        },
-        "slideshow_item_7FMNXb": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "background-2",
-            "image": "shopify://shop_images/000000040003-transformed.jpg",
-            "badge": "",
-            "heading": "AW24",
-            "text": "",
-            "primary_button_label": "",
-            "primary_button_link": "https://kurashicollective.com/collections/aw24",
-            "primary_button_style": "primary",
-            "secondary_button_label": "",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
+            "overlay_opacity": 20
           }
         }
       },
       "block_order": [
-        "slideshow_item_hdF9Rm",
-        "slideshow_item_TCim9w",
-        "slideshow_item_XQmENC",
-        "slideshow_item-2",
-        "slideshow_item_LbhPiQ",
-        "slideshow_item_U8ngYk",
-        "slideshow_item_7FMNXb"
+        "slideshow_item_j6BkPr"
       ],
       "settings": {
         "section_layout": "overlay",
         "section_size": "full",
         "content_alignment": "left",
-        "image_size": "16/9",
-        "is_autoplay": false,
+        "image_size": "adapt",
+        "is_autoplay": true,
         "is_hover_stop_autoplay": true,
         "show_arrows": true,
         "show_bullets": true,
@@ -286,121 +132,101 @@
         "margin_bottom": "no-indent"
       }
     },
-    "featured_product_XJpDCx": {
-      "type": "featured-product",
-      "blocks": {
-        "tags_wzjPr6": {
-          "type": "tags",
-          "settings": {}
-        },
-        "title_VJbnWp": {
-          "type": "title",
-          "settings": {}
-        },
-        "icon_with_text_DhgVC4": {
-          "type": "icon-with-text",
-          "settings": {
-            "show_icon": false,
-            "heading": ""
-          }
-        },
-        "price_nTcML6": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_LDgKqC": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "show_size_guide": true,
-            "size_guide_header": "Header",
-            "size_guide_decription": "",
-            "size_guide_text": "Size Guide",
-            "page": ""
-          }
-        },
-        "buy_buttons_C8jyWg": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_quantity": false,
-            "show_gift_card_recipient": false
-          }
-        },
-        "share_nVhHQz": {
-          "type": "share",
-          "settings": {
-            "show_share_facebook": true,
-            "show_share_twitter": true,
-            "show_share_telegram": true,
-            "show_share_copy": true
-          }
-        }
-      },
-      "block_order": [
-        "tags_wzjPr6",
-        "title_VJbnWp",
-        "icon_with_text_DhgVC4",
-        "price_nTcML6",
-        "variant_picker_LDgKqC",
-        "buy_buttons_C8jyWg",
-        "share_nVhHQz"
-      ],
-      "disabled": true,
+    "popular_products_6AexhP": {
+      "type": "popular-products",
       "settings": {
-        "heading": "",
-        "description": "",
-        "product": "kurashi-baseball-tee",
-        "show_two": true,
-        "margin_top": "s",
-        "margin_bottom": "s"
-      }
-    },
-    "image_banner_HVU3Y4": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "color_scheme": "scheme-62303921-9237-4592-af6d-9755734da7a5",
-        "heading": "",
-        "description": "",
-        "text_align": "left",
-        "text_vertical": "center",
-        "button_label": "",
+        "product_list": [
+          "flight-club-v2-hoodie2-colors",
+          "live-fast-v2-joggers-1",
+          "live-fast-hoodie",
+          "live-fast-joggers",
+          "live-fast-v2-joggers",
+          "live-fast-v2-hoodie",
+          "no-friends-tee-rhinestones",
+          "rhinestone-joggerd"
+        ],
+        "heading": "SHOP SWEATSUITS",
+        "description": "<p>GET FREE SHIPPING ON ALL SWEATSUIT ORDERS</p>",
+        "button_label": "GET FREE SHIPPING",
         "button_link": "",
         "button_style": "primary",
-        "image": "shopify://shop_images/BlauwepetArtboard1_2_1a78c613-37bb-4746-8f38-66985126ef03.png",
-        "image_size": "small",
-        "overlay_opacity": 20,
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "s",
-        "padding_bottom": "s"
+        "autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_two_cards": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_collection_name": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
       }
     },
-    "featured_product_Arr6nV": {
+    "popular_products_wwEKgH": {
+      "type": "popular-products",
+      "settings": {
+        "product_list": [
+          "category-5-longsleeve",
+          "find-peace-tee-rhinestones",
+          "lost-in-motion-crewneck",
+          "motorsport-thermal",
+          "red-striped-joggers",
+          "rhinestone-joggerd",
+          "friends-enemies-tee",
+          "no-friends-tee-rhinestones"
+        ],
+        "heading": "BESTSELLERS",
+        "description": "<p>GET 10% OFF THESE PRODUCTS</p>",
+        "button_label": "CLAIM 10% OFF",
+        "button_link": "",
+        "button_style": "primary",
+        "autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_two_cards": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_collection_name": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "featured_product_8HGPBD": {
       "type": "featured-product",
       "blocks": {
-        "tags_hxcbTe": {
+        "tags_hJjHhz": {
           "type": "tags",
           "settings": {}
         },
-        "title_CtCBCj": {
+        "title_gR84DL": {
           "type": "title",
           "settings": {}
         },
-        "icon_with_text_6QNGJJ": {
+        "icon_with_text_fctNen": {
           "type": "icon-with-text",
           "settings": {
             "show_icon": false,
-            "heading": ""
+            "heading": "Heading"
           }
         },
-        "price_3Jrc8z": {
+        "price_7hQRa7": {
           "type": "price",
           "settings": {}
         },
-        "variant_picker_LK6yRC": {
+        "variant_picker_P4N7GG": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
@@ -411,7 +237,7 @@
             "page": ""
           }
         },
-        "buy_buttons_AVjnd6": {
+        "buy_buttons_UaF6xT": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
@@ -419,7 +245,7 @@
             "show_gift_card_recipient": false
           }
         },
-        "share_JjCPqR": {
+        "share_PdYW4z": {
           "type": "share",
           "settings": {
             "show_share_facebook": true,
@@ -430,56 +256,32 @@
         }
       },
       "block_order": [
-        "tags_hxcbTe",
-        "title_CtCBCj",
-        "icon_with_text_6QNGJJ",
-        "price_3Jrc8z",
-        "variant_picker_LK6yRC",
-        "buy_buttons_AVjnd6",
-        "share_JjCPqR"
+        "tags_hJjHhz",
+        "title_gR84DL",
+        "icon_with_text_fctNen",
+        "price_7hQRa7",
+        "variant_picker_P4N7GG",
+        "buy_buttons_UaF6xT",
+        "share_PdYW4z"
       ],
-      "disabled": true,
       "settings": {
-        "heading": "Kurashi x Obey",
-        "description": "",
-        "product": "obey-sweater",
+        "heading": "SHOP OUR EXCLUSIVE NO FRIENDS TEE",
+        "description": "<p>GET FREE SHIPPING WHEN YOU ORDER THIS</p>",
+        "product": "no-friends-tee-rhinestones",
         "show_two": true,
         "margin_top": "s",
         "margin_bottom": "s"
-      }
-    },
-    "blog_post_g6BKkn": {
-      "type": "blog-post",
-      "settings": {
-        "posts_count": 4,
-        "heading": "From our blog",
-        "per_row": 4,
-        "show_two_cards": true,
-        "button_label": "",
-        "button_link": "",
-        "button_style": "secondary",
-        "blog": "news",
-        "image_ratio": "landscape",
-        "image_fit": "cover",
-        "show_image": true,
-        "show_tags": true,
-        "show_date": true,
-        "show_author": false,
-        "show_excerpt": false,
-        "margin_top": "s",
-        "margin_bottom": "xs"
       }
     }
   },
   "order": [
-    "17320637147257803e",
-    "grid-banner",
-    "collapsible-content",
-    "1734744933c243035f",
-    "slideshow",
-    "featured_product_XJpDCx",
-    "image_banner_HVU3Y4",
-    "featured_product_Arr6nV",
-    "blog_post_g6BKkn"
+    "main",
+    "page_LAEkMV",
+    "grid_banner_LGV3NC",
+    "popular_products_LP4EMj",
+    "slideshow_FKzEwT",
+    "popular_products_6AexhP",
+    "popular_products_wwEKgH",
+    "featured_product_8HGPBD"
   ]
 }
