@@ -38,7 +38,7 @@
             "color_scheme": "",
             "image": "shopify://shop_images/Untitled_design_91.png",
             "overlay_opacity": 70,
-            "card_width": "2",
+            "card_width": "1",
             "min_height": "small",
             "align_content": "center",
             "badge": "",
@@ -49,30 +49,10 @@
             "button_link": "shopify://collections",
             "button_style": "primary"
           }
-        },
-        "column_tFybC3": {
-          "type": "column",
-          "settings": {
-            "card_type": "overlay",
-            "color_scheme": "background-1",
-            "image": "shopify://shop_images/4DBC9003-0347-4EF5-A7C5-7E8CF2810A9D.png",
-            "overlay_opacity": 70,
-            "card_width": "2",
-            "min_height": "small",
-            "align_content": "center",
-            "badge": "",
-            "heading": "Shop Our ROTY Collection",
-            "heading_size": "h3",
-            "text": "",
-            "button_label": "SHOP NOW",
-            "button_link": "shopify://collections",
-            "button_style": "primary"
-          }
         }
       },
       "block_order": [
-        "column_xzNrnW",
-        "column_tFybC3"
+        "column_xzNrnW"
       ],
       "settings": {
         "margin_top": "no-indent",
