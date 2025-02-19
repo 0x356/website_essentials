@@ -41,7 +41,7 @@
         "enable_country_selector": false,
         "enable_language_selector": false,
         "sticky_header_type": "on-scroll-up",
-        "logo_position": "left",
+        "logo_position": "center",
         "enable_search": false
       }
     }
