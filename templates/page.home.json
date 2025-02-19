@@ -62,12 +62,19 @@
     "popular_products_LP4EMj": {
       "type": "popular-products",
       "settings": {
-        "product_list": [],
+        "product_list": [
+          "flight-club-v2-hoodie2-colors",
+          "live-while-youre-alive-tee",
+          "no-friends-tee-rhinestones",
+          "red-striped-joggers",
+          "skull-hoodie",
+          "find-peace-tee-rhinestones"
+        ],
         "heading": "Newly Released",
-        "description": "<p>Description</p>",
-        "button_label": "Button label",
-        "button_link": "",
-        "button_style": "secondary",
+        "description": "<p>DONT MISS OUT</p>",
+        "button_label": "GET YOURS NOW",
+        "button_link": "shopify://collections/all",
+        "button_style": "primary",
         "autoplay": false,
         "stop_autoplay": true,
         "show_arrows": true,
@@ -83,7 +90,25 @@
         "show_color_swatch": false,
         "show_desc": false,
         "margin_top": "no-indent",
-        "margin_bottom": "xs"
+        "margin_bottom": "no-indent"
+      }
+    },
+    "video_banner_rnLRFE": {
+      "type": "video-banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "background-2",
+        "heading": "Shop our MVP Collection",
+        "description": "",
+        "text_align": "center",
+        "block_align": "center",
+        "button_label": "SHOP NOW",
+        "button_style": "secondary",
+        "button_link": "",
+        "video": "shopify://files/videos/AQMz1nmKBjtOlEFAC2PJ-wRUoVX-S3XTBRt4Jem4WL1urXc67LosoEZU1-UTn32rJIoLah_bPPi2AnrxUY8R4EbeRykQTAKqLbC_L2g.mp4",
+        "video_size": "medium",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
       }
     }
   },
@@ -91,6 +116,7 @@
     "main",
     "page_LAEkMV",
     "grid_banner_LGV3NC",
-    "popular_products_LP4EMj"
+    "popular_products_LP4EMj",
+    "video_banner_rnLRFE"
   ]
 }
