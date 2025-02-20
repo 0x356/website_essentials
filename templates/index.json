@@ -78,8 +78,8 @@
         "autoplay": false,
         "stop_autoplay": true,
         "show_arrows": true,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
+        "slideshow_speed": 0.1,
+        "slideshow_delay": 0,
         "image_ratio": "portrait",
         "image_fit": "cover",
         "show_two_cards": true,
@@ -173,13 +173,11 @@
       "settings": {
         "product_list": [
           "category-5-longsleeve",
-          "find-peace-tee-rhinestones",
           "lost-in-motion-crewneck",
-          "motorsport-thermal",
-          "red-striped-joggers",
-          "rhinestone-joggerd",
           "friends-enemies-tee",
-          "no-friends-tee-rhinestones"
+          "forest-camo-double-layer-jersey",
+          "no-friends-tee",
+          "imperfect-love-hoodie"
         ],
         "heading": "BESTSELLERS",
         "description": "<p>GET 10% OFF THESE PRODUCTS</p>",
@@ -189,8 +187,8 @@
         "autoplay": false,
         "stop_autoplay": true,
         "show_arrows": true,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
+        "slideshow_speed": 0.1,
+        "slideshow_delay": 0,
         "image_ratio": "portrait",
         "image_fit": "cover",
         "show_two_cards": true,
