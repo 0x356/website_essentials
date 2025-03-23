@@ -23,10 +23,26 @@
     "type_footer_menu_font": "inter_n9",
     "type_popups_heading_font": "inter_n8",
     "type_popups_text_font": "inter_n4",
-    "social_instagram_link": "https://www.instagram.com/kurashi.collective/",
+    "social_instagram_link": "https://www.instagram.com/samijo.mtl?igsh=cDJ0Y3ZteWQ5dmw1&utm_source=qr",
     "favicon": "shopify://shop_images/Logo_4_Black_7ad14e5d-b80e-4c90-ae94-f3d3db5e73cc.png",
     "quickview_enable": false,
     "cart_type": "drawer",
+    "sections": {
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "shopify://shop_images/Untitled_Artwork_ddb505b0-0f84-4e9e-9930-2fc3c4db85ba.png",
+          "logo_max_width": 80,
+          "color_scheme": ""
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": ""
+        }
+      }
+    },
     "content_for_index": [],
     "color_schemes": {
       "background-1": {
