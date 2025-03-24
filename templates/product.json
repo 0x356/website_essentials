@@ -60,7 +60,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image_gallery_collage": "stacked",
+        "image_gallery_collage": "thumbnail_slider",
         "enable_autoheight": false,
         "desktop_alignment": "left",
         "mobile_alignment": "after",
