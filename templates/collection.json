@@ -31,7 +31,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 12,
+        "products_per_page": 11,
         "per_row": 4,
         "show_two_cards": false,
         "show_secondary_image": true,
@@ -40,7 +40,7 @@
         "show_collection_name": false,
         "show_desc": false,
         "show_color_swatch": false,
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "image_fit": "cover",
         "enable_filtering": true,
         "filter_type": "drawer-menu",
