@@ -72,7 +72,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "",
+        "heading": "<strong>MORE INFO </strong>",
         "description": "",
         "autoplay": false,
         "stop_autoplay": true,
