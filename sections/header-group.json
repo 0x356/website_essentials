@@ -33,8 +33,8 @@
       ],
       "settings": {
         "height": 125,
-        "logo": "shopify://shop_images/Logo_4_Black.png",
-        "logo_width": 60,
+        "logo": "shopify://shop_images/fontbolt.png",
+        "logo_width": 150,
         "menu": "main-menu",
         "color_scheme": "background-1",
         "info_menu": "",
