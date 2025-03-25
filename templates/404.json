@@ -1,1 +1,93 @@
-{"sections":{"main":{"type":"main-404","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "settings": {
+        "padding_bottom": "s"
+      }
+    },
+    "slideshow_qLxWAT": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_item_zw6D4c": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "badge": "Subtitle",
+            "heading": "Slide Heading",
+            "text": "Text from here describes your slide",
+            "primary_button_label": "Button label",
+            "primary_button_link": "",
+            "primary_button_style": "primary",
+            "secondary_button_label": "Button label",
+            "secondary_button_link": "",
+            "overlay_opacity": 30
+          }
+        },
+        "slideshow_item_LeckC7": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "badge": "Subtitle",
+            "heading": "Slide Heading",
+            "text": "Text from here describes your slide",
+            "primary_button_label": "Button label",
+            "primary_button_link": "",
+            "primary_button_style": "primary",
+            "secondary_button_label": "Button label",
+            "secondary_button_link": "",
+            "overlay_opacity": 30
+          }
+        },
+        "slideshow_item_HxcLwA": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "badge": "Subtitle",
+            "heading": "Slide Heading",
+            "text": "Text from here describes your slide",
+            "primary_button_label": "Button label",
+            "primary_button_link": "",
+            "primary_button_style": "primary",
+            "secondary_button_label": "Button label",
+            "secondary_button_link": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "slideshow_item_zw6D4c",
+        "slideshow_item_LeckC7",
+        "slideshow_item_HxcLwA"
+      ],
+      "settings": {
+        "section_layout": "overlay",
+        "section_size": "container",
+        "content_alignment": "center",
+        "image_size": "21/9",
+        "is_autoplay": false,
+        "is_hover_stop_autoplay": true,
+        "show_arrows": true,
+        "show_bullets": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "slide_effects": "slide",
+        "margin_top": "no-indent",
+        "margin_bottom": "xs"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_qLxWAT"
+  ]
+}
