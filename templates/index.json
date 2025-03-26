@@ -19,6 +19,22 @@
     "slideshow_64tNBL": {
       "type": "slideshow",
       "blocks": {
+        "slideshow_item_j7AxUh": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "background-2",
+            "video": "shopify://files/videos/copy_8A62DAC2-C2E2-4237-BFFB-C103E8950904.mov",
+            "badge": "Subtitle",
+            "heading": "Slide Heading",
+            "text": "Text from here describes your slide",
+            "primary_button_label": "Button label",
+            "primary_button_link": "",
+            "primary_button_style": "primary",
+            "secondary_button_label": "Button label",
+            "secondary_button_link": "",
+            "overlay_opacity": 30
+          }
+        },
         "slideshow_item_AFLMDC": {
           "type": "slideshow_item",
           "settings": {
@@ -34,44 +50,11 @@
             "secondary_button_link": "",
             "overlay_opacity": 30
           }
-        },
-        "slideshow_item_aR78QX": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/2FB7E97B-8F02-4A49-A755-7C02B5171FD8.jpg",
-            "badge": "Subtitle",
-            "heading": "Slide Heading",
-            "text": "Text from here describes your slide",
-            "primary_button_label": "Button label",
-            "primary_button_link": "",
-            "primary_button_style": "primary",
-            "secondary_button_label": "Button label",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
-        },
-        "slideshow_item_fGq8tm": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/122DC67A-4D4F-4AB6-AFBF-8F3E60EA44C0.jpg",
-            "badge": "Subtitle",
-            "heading": "Slide Heading",
-            "text": "Text from here describes your slide",
-            "primary_button_label": "Button label",
-            "primary_button_link": "",
-            "primary_button_style": "primary",
-            "secondary_button_label": "Button label",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
-        "slideshow_item_AFLMDC",
-        "slideshow_item_aR78QX",
-        "slideshow_item_fGq8tm"
+        "slideshow_item_j7AxUh",
+        "slideshow_item_AFLMDC"
       ],
       "settings": {
         "section_layout": "overlay",
