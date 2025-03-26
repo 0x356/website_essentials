@@ -14,7 +14,7 @@
     "header": {
       "type": "header",
       "blocks": {
-        "mega_menu_collection_GLiUzw": {
+        "mega_menu_collection_tqJhxT": {
           "type": "mega_menu_collection",
           "settings": {
             "menu_trigger": "",
@@ -29,7 +29,7 @@
         }
       },
       "block_order": [
-        "mega_menu_collection_GLiUzw"
+        "mega_menu_collection_tqJhxT"
       ],
       "settings": {
         "height": 125,

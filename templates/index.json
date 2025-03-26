@@ -19,48 +19,31 @@
     "slideshow_64tNBL": {
       "type": "slideshow",
       "blocks": {
-        "slideshow_item_j7AxUh": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "background-2",
-            "video": "shopify://files/videos/copy_8A62DAC2-C2E2-4237-BFFB-C103E8950904.mov",
-            "badge": "welcome.",
-            "heading": "DROP NOW LIVE",
-            "text": "Text from here describes your slide",
-            "primary_button_label": "Shop now!",
-            "primary_button_link": "shopify://collections/all",
-            "primary_button_style": "primary",
-            "secondary_button_label": "Button label",
-            "secondary_button_link": "",
-            "overlay_opacity": 30
-          }
-        },
         "slideshow_item_AFLMDC": {
           "type": "slideshow_item",
           "settings": {
             "color_scheme": "background-2",
-            "image": "shopify://shop_images/dsc_0690_c6c91e15-48ca-45eb-9c4a-67af96021cb4.jpg",
-            "badge": "Subtitle",
-            "heading": "Slide Heading",
-            "text": "Text from here describes your slide",
-            "primary_button_label": "Button label",
+            "image": "shopify://shop_images/DSC01483_5c87b1d8-c752-4c73-a39a-dc1c97bc5d93.jpg",
+            "badge": "Welcome",
+            "heading": "NEW DROP LIVE",
+            "text": "",
+            "primary_button_label": "",
             "primary_button_link": "",
             "primary_button_style": "primary",
-            "secondary_button_label": "Button label",
-            "secondary_button_link": "",
+            "secondary_button_label": "SHOP NOW",
+            "secondary_button_link": "shopify://collections/all",
             "overlay_opacity": 30
           }
         }
       },
       "block_order": [
-        "slideshow_item_j7AxUh",
         "slideshow_item_AFLMDC"
       ],
       "settings": {
         "section_layout": "overlay",
         "section_size": "full",
         "content_alignment": "center",
-        "image_size": "large",
+        "image_size": "16/9",
         "is_autoplay": false,
         "is_hover_stop_autoplay": true,
         "show_arrows": true,
@@ -71,10 +54,80 @@
         "margin_top": "no-indent",
         "margin_bottom": "xs"
       }
+    },
+    "featured_product_UHVBL7": {
+      "type": "featured-product",
+      "blocks": {
+        "tags_Q8GpRX": {
+          "type": "tags",
+          "settings": {}
+        },
+        "title_BtM3dk": {
+          "type": "title",
+          "settings": {}
+        },
+        "icon_with_text_hTdTtT": {
+          "type": "icon-with-text",
+          "settings": {
+            "show_icon": false,
+            "heading": "Heading"
+          }
+        },
+        "price_PkCbKV": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_mhmtNN": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_size_guide": true,
+            "size_guide_header": "Header",
+            "size_guide_decription": "",
+            "size_guide_text": "Size Guide",
+            "page": ""
+          }
+        },
+        "buy_buttons_eLDEJ9": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_quantity": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_QJjrgC": {
+          "type": "share",
+          "settings": {
+            "show_share_facebook": true,
+            "show_share_twitter": true,
+            "show_share_telegram": true,
+            "show_share_copy": true
+          }
+        }
+      },
+      "block_order": [
+        "tags_Q8GpRX",
+        "title_BtM3dk",
+        "icon_with_text_hTdTtT",
+        "price_PkCbKV",
+        "variant_picker_mhmtNN",
+        "buy_buttons_eLDEJ9",
+        "share_QJjrgC"
+      ],
+      "settings": {
+        "heading": "BEST SELLER",
+        "description": "<p>Limited time only </p>",
+        "product": "black-art-in-motion-zip-up",
+        "show_two": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_64tNBL"
+    "slideshow_64tNBL",
+    "featured_product_UHVBL7"
   ]
 }
