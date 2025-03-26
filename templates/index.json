@@ -11,40 +11,87 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
       }
     },
-    "image_with_text_Hhqrae": {
-      "type": "image-with-text",
+    "slideshow_64tNBL": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_item_AFLMDC": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "background-2",
+            "image": "shopify://shop_images/dsc_0690_c6c91e15-48ca-45eb-9c4a-67af96021cb4.jpg",
+            "badge": "Subtitle",
+            "heading": "Slide Heading",
+            "text": "Text from here describes your slide",
+            "primary_button_label": "Button label",
+            "primary_button_link": "",
+            "primary_button_style": "primary",
+            "secondary_button_label": "Button label",
+            "secondary_button_link": "",
+            "overlay_opacity": 30
+          }
+        },
+        "slideshow_item_aR78QX": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/2FB7E97B-8F02-4A49-A755-7C02B5171FD8.jpg",
+            "badge": "Subtitle",
+            "heading": "Slide Heading",
+            "text": "Text from here describes your slide",
+            "primary_button_label": "Button label",
+            "primary_button_link": "",
+            "primary_button_style": "primary",
+            "secondary_button_label": "Button label",
+            "secondary_button_link": "",
+            "overlay_opacity": 30
+          }
+        },
+        "slideshow_item_fGq8tm": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/122DC67A-4D4F-4AB6-AFBF-8F3E60EA44C0.jpg",
+            "badge": "Subtitle",
+            "heading": "Slide Heading",
+            "text": "Text from here describes your slide",
+            "primary_button_label": "Button label",
+            "primary_button_link": "",
+            "primary_button_style": "primary",
+            "secondary_button_label": "Button label",
+            "secondary_button_link": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "slideshow_item_AFLMDC",
+        "slideshow_item_aR78QX",
+        "slideshow_item_fGq8tm"
+      ],
       "settings": {
-        "color_scheme": "",
-        "heading": "Heading",
-        "heading_size": "h1",
-        "badge": "Some Badge",
-        "text": "<p>Some description</p>",
-        "primary_button_label": "Button label",
-        "primary_button_link": "",
-        "primary_button_style": "primary",
-        "secondary_button_label": "",
-        "secondary_button_link": "",
-        "image_first": "shopify://shop_images/DSC01284.jpg",
-        "image_second": "shopify://shop_images/DSC01483_151cf124-4910-4e98-ac7b-2c9b3cbc1b83.jpg",
-        "hide_img": false,
-        "image_ratio": "portrait",
+        "section_layout": "overlay",
+        "section_size": "full",
+        "content_alignment": "center",
+        "image_size": "large",
+        "is_autoplay": false,
+        "is_hover_stop_autoplay": true,
+        "show_arrows": true,
+        "show_bullets": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "slide_effects": "slide",
         "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "s",
-        "padding_bottom": "s",
-        "enable_border_top": false,
-        "enable_border_bottom": false
+        "margin_bottom": "xs"
       }
     }
   },
   "order": [
     "main",
-    "image_with_text_Hhqrae"
+    "slideshow_64tNBL"
   ]
 }

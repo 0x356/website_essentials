@@ -48,6 +48,7 @@
         },
         "footer-5": {
           "type": "subscribe",
+          "disabled": true,
           "settings": {
             "heading": "<p>Let's keep in touch</p>",
             "newsletter_text": "<p>Stay up to date about Jetlyfe's exclusive offers and drops</p>",
