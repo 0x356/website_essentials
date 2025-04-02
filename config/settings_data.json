@@ -28,6 +28,13 @@
     "quickview_enable": false,
     "cart_type": "drawer",
     "content_for_index": [],
+    "blocks": {
+      "5460033060862993441": {
+        "type": "shopify://apps/essential-announcer/blocks/app-embed/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
