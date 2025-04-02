@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
@@ -24,26 +25,43 @@
           "settings": {
             "color_scheme": "background-2",
             "image": "shopify://shop_images/DSC01483_5c87b1d8-c752-4c73-a39a-dc1c97bc5d93.jpg",
-            "badge": "Welcome",
+            "badge": "LIMITED-TIME SALE",
             "heading": "NEW DROP LIVE",
             "text": "",
             "primary_button_label": "",
             "primary_button_link": "",
             "primary_button_style": "primary",
             "secondary_button_label": "SHOP NOW",
-            "secondary_button_link": "shopify://collections/all",
+            "secondary_button_link": "shopify://products/black-art-in-motion-zip-up",
+            "overlay_opacity": 30
+          }
+        },
+        "slideshow_item_cjzmEr": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "background-2",
+            "image": "shopify://shop_images/DSC01284.jpg",
+            "badge": "FREE SHIPPING WORLDWIDE",
+            "heading": "ENJOY 30% OFF",
+            "text": "",
+            "primary_button_label": "",
+            "primary_button_link": "",
+            "primary_button_style": "primary",
+            "secondary_button_label": "SHOP NOW",
+            "secondary_button_link": "shopify://products/black-art-in-motion-zip-up",
             "overlay_opacity": 30
           }
         }
       },
       "block_order": [
-        "slideshow_item_AFLMDC"
+        "slideshow_item_AFLMDC",
+        "slideshow_item_cjzmEr"
       ],
       "settings": {
         "section_layout": "overlay",
         "section_size": "full",
         "content_alignment": "center",
-        "image_size": "16/9",
+        "image_size": "4/3",
         "is_autoplay": false,
         "is_hover_stop_autoplay": true,
         "show_arrows": true,
@@ -68,6 +86,7 @@
         },
         "icon_with_text_hTdTtT": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "show_icon": false,
             "heading": "Heading"

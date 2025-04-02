@@ -38,7 +38,7 @@
         "menu": "main-menu",
         "color_scheme": "background-1",
         "info_menu": "",
-        "enable_country_selector": false,
+        "enable_country_selector": true,
         "enable_language_selector": false,
         "sticky_header_type": "on-scroll-up",
         "logo_position": "center",
