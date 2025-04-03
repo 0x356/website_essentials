@@ -39,13 +39,6 @@
             "logo_width": 100
           }
         },
-        "footer-2": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
         "footer-3": {
           "type": "link_list",
           "settings": {
@@ -58,13 +51,12 @@
         "footer-5",
         "footer-1",
         "footer-0",
-        "footer-2",
         "footer-3"
       ],
       "settings": {
         "color_scheme": "background-2",
         "enable_language_selector": false,
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_follow_on_shop": false,
         "payment_enable": true,
         "show_policy": true,
