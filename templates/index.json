@@ -143,53 +143,41 @@
         "margin_bottom": "s"
       }
     },
-    "collection_grid_9jnjHb": {
-      "type": "collection-grid",
+    "categories_list_7DJKtk": {
+      "type": "categories-list",
       "blocks": {
-        "categories_LfyGPb": {
+        "categories_G4kGk7": {
           "type": "categories",
           "settings": {
-            "collection": "",
-            "column_start": 1,
-            "column_end": 2,
-            "row_start": "unset",
-            "row_end": "unset"
+            "collection": ""
           }
         },
-        "categories_mJJYqn": {
+        "categories_YgDmbh": {
           "type": "categories",
           "settings": {
-            "collection": "",
-            "column_start": 2,
-            "column_end": 3,
-            "row_start": "unset",
-            "row_end": "unset"
+            "collection": ""
           }
         },
-        "categories_mVEF46": {
+        "categories_jxDbaY": {
           "type": "categories",
           "settings": {
-            "collection": "",
-            "column_start": 3,
-            "column_end": 4,
-            "row_start": "unset",
-            "row_end": "unset"
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "categories_LfyGPb",
-        "categories_mJJYqn",
-        "categories_mVEF46"
+        "categories_G4kGk7",
+        "categories_YgDmbh",
+        "categories_jxDbaY"
       ],
       "settings": {
-        "columns": 3,
-        "blocks_spacing": "xs",
-        "image_ratio": "square",
-        "card_type": "overlay",
-        "show_collection_desc": false,
-        "margin_top": "xs",
-        "margin_bottom": "xs"
+        "full_width": true,
+        "color_scheme": "",
+        "image_size": "large",
+        "overlay_opacity": 30,
+        "list_direction": "row",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
       }
     }
   },
@@ -197,6 +185,6 @@
     "main",
     "slideshow_64tNBL",
     "featured_product_UHVBL7",
-    "collection_grid_9jnjHb"
+    "categories_list_7DJKtk"
   ]
 }
