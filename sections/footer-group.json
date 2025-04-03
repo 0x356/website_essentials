@@ -26,8 +26,9 @@
         },
         "footer-1": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
-            "heading": "Quick links",
+            "heading": "POLICIES",
             "menu": "footer"
           }
         },
@@ -38,20 +39,12 @@
             "letter_text": "<p>Some description.</p>",
             "logo_width": 100
           }
-        },
-        "footer-3": {
-          "type": "link_list",
-          "settings": {
-            "heading": "",
-            "menu": "footer"
-          }
         }
       },
       "block_order": [
         "footer-5",
         "footer-1",
-        "footer-0",
-        "footer-3"
+        "footer-0"
       ],
       "settings": {
         "color_scheme": "background-2",
