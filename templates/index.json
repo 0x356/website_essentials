@@ -47,7 +47,7 @@
             "text": "",
             "primary_button_label": "SHOW NOW",
             "primary_button_link": "shopify://products/black-art-in-motion-zip-up",
-            "primary_button_style": "primary",
+            "primary_button_style": "tertiary",
             "secondary_button_label": "",
             "secondary_button_link": "shopify://products/black-art-in-motion-zip-up",
             "overlay_opacity": 50
