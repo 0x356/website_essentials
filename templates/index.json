@@ -22,6 +22,7 @@
       "blocks": {
         "slideshow_item_AFLMDC": {
           "type": "slideshow_item",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-2",
             "image": "shopify://shop_images/DSC01483_5c87b1d8-c752-4c73-a39a-dc1c97bc5d93.jpg",
@@ -49,7 +50,7 @@
             "primary_button_style": "primary",
             "secondary_button_label": "SHOP NOW",
             "secondary_button_link": "shopify://products/black-art-in-motion-zip-up",
-            "overlay_opacity": 30
+            "overlay_opacity": 50
           }
         }
       },
@@ -61,7 +62,7 @@
         "section_layout": "overlay",
         "section_size": "full",
         "content_alignment": "center",
-        "image_size": "4/3",
+        "image_size": "adapt",
         "is_autoplay": true,
         "is_hover_stop_autoplay": true,
         "show_arrows": true,
