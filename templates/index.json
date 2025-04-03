@@ -45,10 +45,10 @@
             "badge": "FREE SHIPPING WORLDWIDE",
             "heading": "BOGO 30% OFF",
             "text": "",
-            "primary_button_label": "",
-            "primary_button_link": "",
+            "primary_button_label": "SHOW NOW",
+            "primary_button_link": "shopify://products/black-art-in-motion-zip-up",
             "primary_button_style": "primary",
-            "secondary_button_label": "SHOP NOW",
+            "secondary_button_label": "",
             "secondary_button_link": "shopify://products/black-art-in-motion-zip-up",
             "overlay_opacity": 50
           }
