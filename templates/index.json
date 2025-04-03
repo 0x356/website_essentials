@@ -42,7 +42,7 @@
             "color_scheme": "background-2",
             "image": "shopify://shop_images/DSC01284.jpg",
             "badge": "FREE SHIPPING WORLDWIDE",
-            "heading": "ENJOY 30% OFF",
+            "heading": "BOGO 30% OFF",
             "text": "",
             "primary_button_label": "",
             "primary_button_link": "",
@@ -99,7 +99,7 @@
         "variant_picker_mhmtNN": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "show_size_guide": true,
             "size_guide_header": "Header",
             "size_guide_decription": "",
@@ -111,12 +111,13 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
-            "show_quantity": true,
+            "show_quantity": false,
             "show_gift_card_recipient": true
           }
         },
         "share_QJjrgC": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "show_share_facebook": true,
             "show_share_twitter": true,
@@ -143,51 +144,13 @@
         "margin_bottom": "s"
       }
     },
-    "categories_list_7DJKtk": {
-      "type": "categories-list",
-      "blocks": {
-        "categories_G4kGk7": {
-          "type": "categories",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "categories_YgDmbh": {
-          "type": "categories",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "categories_jxDbaY": {
-          "type": "categories",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "categories_G4kGk7",
-        "categories_YgDmbh",
-        "categories_jxDbaY"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "color_scheme": "",
-        "image_size": "large",
-        "overlay_opacity": 30,
-        "list_direction": "row",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
-      }
-    },
     "collection_grid_f6jgMh": {
       "type": "collection-grid",
       "blocks": {
         "categories_PDxHhj": {
           "type": "categories",
           "settings": {
-            "collection": "",
+            "collection": "bestsellers",
             "column_start": 1,
             "column_end": 2,
             "row_start": "unset",
@@ -197,7 +160,7 @@
         "categories_jYcLXf": {
           "type": "categories",
           "settings": {
-            "collection": "",
+            "collection": "frontpage",
             "column_start": 2,
             "column_end": 3,
             "row_start": "unset",
@@ -207,7 +170,7 @@
         "categories_43tAHE": {
           "type": "categories",
           "settings": {
-            "collection": "",
+            "collection": "tops",
             "column_start": 3,
             "column_end": 4,
             "row_start": "unset",
@@ -235,7 +198,6 @@
     "main",
     "slideshow_64tNBL",
     "featured_product_UHVBL7",
-    "categories_list_7DJKtk",
     "collection_grid_f6jgMh"
   ]
 }
