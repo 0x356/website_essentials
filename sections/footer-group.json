@@ -16,7 +16,6 @@
       "blocks": {
         "footer-0": {
           "type": "logo_info",
-          "disabled": true,
           "settings": {
             "letter_text": "<p>Some description.</p>",
             "logo_width": 100
@@ -24,7 +23,6 @@
         },
         "footer-1": {
           "type": "link_list",
-          "disabled": true,
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
@@ -32,7 +30,6 @@
         },
         "footer-2": {
           "type": "link_list",
-          "disabled": true,
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
@@ -40,7 +37,6 @@
         },
         "footer-3": {
           "type": "link_list",
-          "disabled": true,
           "settings": {
             "heading": "",
             "menu": "footer"
@@ -48,7 +44,6 @@
         },
         "footer-5": {
           "type": "subscribe",
-          "disabled": true,
           "settings": {
             "heading": "<p>Let's keep in touch</p>",
             "newsletter_text": "<p>Stay up to date about Jetlyfe's exclusive offers and drops</p>",
