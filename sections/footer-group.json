@@ -68,7 +68,7 @@
       "settings": {
         "color_scheme": "background-2",
         "enable_language_selector": false,
-        "enable_country_selector": false,
+        "enable_country_selector": true,
         "enable_follow_on_shop": false,
         "payment_enable": true,
         "show_policy": true,
