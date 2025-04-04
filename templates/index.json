@@ -175,20 +175,6 @@
         "margin_bottom": "xs"
       }
     },
-    "about_WDPNUA": {
-      "type": "about",
-      "settings": {
-        "color_scheme": "",
-        "heading": "",
-        "subtitle": "<p>100 PIECES EVER MADE</p>",
-        "author_name": "",
-        "description": "",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "no-indent",
-        "padding_bottom": "no-indent"
-      }
-    },
     "collection_grid_f6jgMh": {
       "type": "collection-grid",
       "blocks": {
@@ -222,7 +208,6 @@
     "slideshow_64tNBL",
     "featured_product_UHVBL7",
     "popular_products_LCifAB",
-    "about_WDPNUA",
     "collection_grid_f6jgMh"
   ]
 }
