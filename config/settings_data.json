@@ -43,6 +43,11 @@
         "type": "shopify://apps/upsell-koala-bundles/blocks/deals-embed/2b951f75-113f-4fca-bdf3-c92703235716",
         "disabled": false,
         "settings": {}
+      },
+      "11532412952436166569": {
+        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
