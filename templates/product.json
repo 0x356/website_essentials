@@ -83,7 +83,7 @@
         "heading_tMkGwC": {
           "type": "heading",
           "settings": {
-            "heading": "<h5><strong>MORE INFO</strong></h5>",
+            "heading": "<h3><strong>MORE INFO</strong></h3>",
             "heading_size": "h3"
           }
         }
