@@ -136,6 +136,7 @@
         "buy_buttons_eLDEJ9",
         "share_QJjrgC"
       ],
+      "disabled": true,
       "settings": {
         "heading": "BEST SELLER",
         "description": "<p>Limited time only </p>",
@@ -143,6 +144,35 @@
         "show_two": true,
         "margin_top": "s",
         "margin_bottom": "s"
+      }
+    },
+    "popular_products_LCifAB": {
+      "type": "popular-products",
+      "settings": {
+        "product_list": [
+          "black-art-in-motion-zip-up"
+        ],
+        "heading": "BUY ONE GET ONE 30% OFF",
+        "description": "<p>LIMITED TIME ONLY</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary",
+        "autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_two_cards": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_collection_name": true,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "xs"
       }
     },
     "collection_grid_f6jgMh": {
@@ -177,6 +207,7 @@
     "main",
     "slideshow_64tNBL",
     "featured_product_UHVBL7",
+    "popular_products_LCifAB",
     "collection_grid_f6jgMh"
   ]
 }
