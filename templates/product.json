@@ -101,12 +101,20 @@
             "block_heading": "MATERIALS",
             "text": "<p>• High quality screen print</p><p>• High Quality Rhinestone</p>"
           }
+        },
+        "text_block_P8M7dE": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "SHIPPING",
+            "text": "<p>FREE SHIPPING!</p>"
+          }
         }
       },
       "block_order": [
         "text_block_7BHz4K",
         "text_block_wqeeDX",
-        "text_block_kEjUPp"
+        "text_block_kEjUPp",
+        "text_block_P8M7dE"
       ],
       "settings": {
         "color_scheme": "",
