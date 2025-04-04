@@ -175,6 +175,20 @@
         "margin_bottom": "xs"
       }
     },
+    "about_WDPNUA": {
+      "type": "about",
+      "settings": {
+        "color_scheme": "",
+        "heading": "",
+        "subtitle": "",
+        "author_name": "",
+        "description": "<p>100 pieces</p>",
+        "margin_top": "xs",
+        "margin_bottom": "xs",
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    },
     "collection_grid_f6jgMh": {
       "type": "collection-grid",
       "blocks": {
@@ -208,6 +222,7 @@
     "slideshow_64tNBL",
     "featured_product_UHVBL7",
     "popular_products_LCifAB",
+    "about_WDPNUA",
     "collection_grid_f6jgMh"
   ]
 }
