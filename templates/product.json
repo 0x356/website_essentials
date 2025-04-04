@@ -20,6 +20,13 @@
           "type": "title",
           "settings": {}
         },
+        "icon_with_text_ccBF9R": {
+          "type": "icon-with-text",
+          "settings": {
+            "show_icon": true,
+            "heading": "FREE SHIPPING"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -45,6 +52,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "description_heading": ""
           }
@@ -53,6 +61,7 @@
       "block_order": [
         "tags",
         "title",
+        "icon_with_text_ccBF9R",
         "price",
         "variant_picker",
         "buy_buttons",
@@ -69,10 +78,79 @@
         "padding_bottom": "no-indent"
       }
     },
+    "collapsible_content_GrtcYF": {
+      "type": "collapsible-content",
+      "blocks": {
+        "text_block_7BHz4K": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "DETAILS",
+            "text": "<p>400 GSM cotton, with a luxury premium feel.</p>"
+          }
+        },
+        "text_block_wqeeDX": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "SIZE GUIDE",
+            "text": "<p>Perfect true-to-size fit. Size chart at the end of product slideshow.</p>"
+          }
+        },
+        "text_block_kEjUPp": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "MATERIALS",
+            "text": "<p>• High quality screen print</p><p>• High Quality Rhinestone</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_7BHz4K",
+        "text_block_wqeeDX",
+        "text_block_kEjUPp"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_HCPjpC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tMkGwC": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h5><strong>IN STOCK READY TO SHIP!</strong></h5>",
+            "heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tMkGwC"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "left",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "<strong>MORE INFO </strong>",
+        "heading": "<strong>YOU MAY ALSO LIKE</strong>",
         "description": "",
         "autoplay": false,
         "stop_autoplay": true,
@@ -98,6 +176,8 @@
   },
   "order": [
     "main",
+    "collapsible_content_GrtcYF",
+    "rich_text_HCPjpC",
     "product-recommendations"
   ]
 }
