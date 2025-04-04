@@ -180,13 +180,13 @@
       "settings": {
         "color_scheme": "",
         "heading": "",
-        "subtitle": "",
+        "subtitle": "<p>100 pieces ever made</p>",
         "author_name": "",
-        "description": "<p>100 pieces</p>",
-        "margin_top": "xs",
-        "margin_bottom": "xs",
-        "padding_top": "m",
-        "padding_bottom": "m"
+        "description": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
       }
     },
     "collection_grid_f6jgMh": {
@@ -212,7 +212,7 @@
         "image_ratio": "square",
         "card_type": "overlay",
         "show_collection_desc": false,
-        "margin_top": "xs",
+        "margin_top": "no-indent",
         "margin_bottom": "xs"
       }
     }
