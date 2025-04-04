@@ -164,7 +164,7 @@
         "slideshow_delay": 3,
         "image_ratio": "square",
         "image_fit": "cover",
-        "show_two_cards": true,
+        "show_two_cards": false,
         "show_secondary_image": true,
         "show_sku": false,
         "show_vendor": false,
