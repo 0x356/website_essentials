@@ -18,7 +18,7 @@
           "type": "subscribe",
           "settings": {
             "heading": "<p>Let's keep in touch</p>",
-            "newsletter_text": "<p>Stay up to date about exclusive offers and drops</p>",
+            "newsletter_text": "<p>Stay up to date about exclusive offers and drops.</p>",
             "newsletter_sub": "<p>By subscribing you agree to the Terms of Use and Privacy Policy.</p>",
             "button_label": "Subscribe",
             "button_style": "primary"
