@@ -165,7 +165,7 @@
             "border_active": false,
             "border_width": 2,
             "border_color": "#000000",
-            "productIds": "black-art-in-motion-zip-up"
+            "productIds": "{{ product }}"
           }
         }
       },
