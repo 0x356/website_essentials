@@ -185,7 +185,7 @@
             "borderRadius": 60,
             "itemsPerView": 3,
             "mobileItemsPerView": 1,
-            "imageRatio": "1",
+            "imageRatio": "1.25",
             "reviewerNameColor": "#ffffff",
             "starsColor": "#ffffff",
             "arrows_backgroundColor": "#ffffff",
