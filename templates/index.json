@@ -175,6 +175,30 @@
         "margin_bottom": "xs"
       }
     },
+    "rich_text_VrTXVC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TDJAHa": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h3>PREVIOUS CUSTOMERS</h3>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TDJAHa"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "left",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
     "174380710621be7340": {
       "type": "apps",
       "blocks": {
@@ -238,6 +262,7 @@
     "slideshow_64tNBL",
     "featured_product_UHVBL7",
     "popular_products_LCifAB",
+    "rich_text_VrTXVC",
     "174380710621be7340",
     "collection_grid_f6jgMh"
   ]
