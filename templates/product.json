@@ -72,7 +72,7 @@
         "enable_autoheight": false,
         "desktop_alignment": "left",
         "mobile_alignment": "after",
-        "image_fit": "contain",
+        "image_fit": "cover",
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
       }
