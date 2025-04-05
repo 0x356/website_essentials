@@ -201,51 +201,12 @@
     },
     "174380710621be7340": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_gallery_carousel_section_VW4g8E": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-gallery-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "maxWidth": 1100,
-            "borderRadius": 60,
-            "itemsPerView": 3,
-            "mobileItemsPerView": 1,
-            "imageRatio": "1.25",
-            "reviewerNameColor": "#ffffff",
-            "starsColor": "#ffffff",
-            "arrows_backgroundColor": "#ffffff",
-            "arrows_iconColor": "#9a9a9a",
-            "shadow": "none",
-            "border_active": false,
-            "border_width": 2,
-            "border_color": "#000000",
-            "productIds": ""
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_gallery_carousel_section_VW4g8E"
-      ],
       "settings": {
         "include_margins": true
       }
     },
     "collection_grid_f6jgMh": {
       "type": "collection-grid",
-      "blocks": {
-        "categories_PDxHhj": {
-          "type": "categories",
-          "settings": {
-            "collection": "bestsellers",
-            "column_start": 1,
-            "column_end": 2,
-            "row_start": "unset",
-            "row_end": "unset"
-          }
-        }
-      },
-      "block_order": [
-        "categories_PDxHhj"
-      ],
       "settings": {
         "columns": 1,
         "blocks_spacing": "s",
@@ -253,6 +214,78 @@
         "card_type": "standart",
         "show_collection_desc": false,
         "margin_top": "no-indent",
+        "margin_bottom": "xs"
+      }
+    },
+    "174386543279a21f66": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_video_slider_E7FY7m": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-video-slider/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "show-by-tag": false,
+            "layout": "spotlight",
+            "shadow": "",
+            "show-rating": true,
+            "show-reviewer-name": true,
+            "hide-arrows-mobile": true,
+            "auto-play": true,
+            "show-border": false,
+            "border-width": 1,
+            "border-radius": 16,
+            "text-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "play-button-color": "",
+            "shadow-color": "",
+            "product-id": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_video_slider_E7FY7m"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collection_grid_UKqc3d": {
+      "type": "collection-grid",
+      "blocks": {
+        "categories_kpdfBQ": {
+          "type": "categories",
+          "settings": {
+            "collection": "bestsellers",
+            "collection_image": "shopify://shop_images/DSC01483_5c87b1d8-c752-4c73-a39a-dc1c97bc5d93.jpg",
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_tVGAQc": {
+          "type": "categories",
+          "settings": {
+            "collection": "frontpage",
+            "collection_image": "shopify://shop_images/dsc_0690_c6c91e15-48ca-45eb-9c4a-67af96021cb4.jpg",
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        }
+      },
+      "block_order": [
+        "categories_kpdfBQ",
+        "categories_tVGAQc"
+      ],
+      "settings": {
+        "columns": 3,
+        "blocks_spacing": "xs",
+        "image_ratio": "portrait",
+        "card_type": "overlay",
+        "show_collection_desc": false,
+        "margin_top": "xs",
         "margin_bottom": "xs"
       }
     }
@@ -264,6 +297,8 @@
     "popular_products_LCifAB",
     "rich_text_VrTXVC",
     "174380710621be7340",
-    "collection_grid_f6jgMh"
+    "collection_grid_f6jgMh",
+    "174386543279a21f66",
+    "collection_grid_UKqc3d"
   ]
 }
