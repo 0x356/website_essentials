@@ -248,9 +248,9 @@
       ],
       "settings": {
         "columns": 1,
-        "blocks_spacing": "xs",
-        "image_ratio": "square",
-        "card_type": "overlay",
+        "blocks_spacing": "s",
+        "image_ratio": "portrait",
+        "card_type": "standart",
         "show_collection_desc": false,
         "margin_top": "no-indent",
         "margin_bottom": "xs"
