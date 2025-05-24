@@ -27,6 +27,21 @@
     "favicon": "shopify://shop_images/Logo_4_Black_7ad14e5d-b80e-4c90-ae94-f3d3db5e73cc.png",
     "quickview_enable": false,
     "cart_type": "drawer",
+    "sections": {
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo_max_width": 50,
+          "color_scheme": ""
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": ""
+        }
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "5460033060862993441": {
@@ -36,11 +51,6 @@
       },
       "12657775114333427046": {
         "type": "shopify://apps/essential-countdown/blocks/app_embed/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-        "disabled": false,
-        "settings": {}
-      },
-      "4143866229958350875": {
-        "type": "shopify://apps/upsell-koala-bundles/blocks/deals-embed/2b951f75-113f-4fca-bdf3-c92703235716",
         "disabled": false,
         "settings": {}
       },
