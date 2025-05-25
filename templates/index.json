@@ -98,9 +98,9 @@
       "settings": {
         "products_per_page": 28,
         "sort": "alphabetical",
-        "heading": "Heading",
-        "description": "<p>Description</p>",
-        "button_label": "Button label",
+        "heading": "",
+        "description": "",
+        "button_label": "",
         "button_link": "",
         "button_style": "secondary",
         "show_two_cards": true,
