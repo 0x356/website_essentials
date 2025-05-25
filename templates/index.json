@@ -59,15 +59,15 @@
           "settings": {
             "color_scheme": "background-2",
             "image": "shopify://shop_images/dsc_0690_c6c91e15-48ca-45eb-9c4a-67af96021cb4.jpg",
-            "badge": "",
+            "badge": "S1 COLLECTION IS BACK IN STOCK",
             "heading": "",
             "text": "",
-            "primary_button_label": "",
-            "primary_button_link": "",
+            "primary_button_label": "SHOP NOW",
+            "primary_button_link": "shopify://collections",
             "primary_button_style": "primary",
             "secondary_button_label": "",
-            "secondary_button_link": "shopify://products/black-art-in-motion-zip-up",
-            "overlay_opacity": 30
+            "secondary_button_link": "shopify://collections",
+            "overlay_opacity": 0
           }
         }
       },
@@ -88,30 +88,6 @@
         "slideshow_speed": 1.1,
         "slideshow_delay": 3,
         "slide_effects": "slide",
-        "margin_top": "no-indent",
-        "margin_bottom": "xs"
-      }
-    },
-    "products_grid_jDAcnd": {
-      "type": "products-grid",
-      "name": "t:sections.products-grid.name",
-      "settings": {
-        "products_per_page": 28,
-        "sort": "alphabetical",
-        "heading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "secondary",
-        "show_two_cards": true,
-        "show_secondary_image": true,
-        "show_sku": false,
-        "show_vendor": false,
-        "show_collection_name": true,
-        "show_desc": false,
-        "show_color_swatch": false,
-        "image_ratio": "portrait",
-        "image_fit": "cover",
         "margin_top": "no-indent",
         "margin_bottom": "xs"
       }
@@ -181,12 +157,82 @@
         "padding_top": "s",
         "padding_bottom": "s"
       }
+    },
+    "featured_product_PhCNAe": {
+      "type": "featured-product",
+      "blocks": {
+        "tags_tF8BKj": {
+          "type": "tags",
+          "settings": {}
+        },
+        "title_6AGNwX": {
+          "type": "title",
+          "settings": {}
+        },
+        "icon_with_text_tdXNJQ": {
+          "type": "icon-with-text",
+          "settings": {
+            "show_icon": false,
+            "heading": "Heading"
+          }
+        },
+        "price_BcRkgi": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_qd7TWg": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_size_guide": true,
+            "size_guide_header": "Header",
+            "size_guide_decription": "",
+            "size_guide_text": "Size Guide",
+            "page": ""
+          }
+        },
+        "buy_buttons_DmNY8r": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_quantity": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "share_Pr9q7W": {
+          "type": "share",
+          "settings": {
+            "show_share_facebook": true,
+            "show_share_twitter": true,
+            "show_share_telegram": true,
+            "show_share_copy": true
+          }
+        }
+      },
+      "block_order": [
+        "tags_tF8BKj",
+        "title_6AGNwX",
+        "icon_with_text_tdXNJQ",
+        "price_BcRkgi",
+        "variant_picker_qd7TWg",
+        "buy_buttons_DmNY8r",
+        "share_Pr9q7W"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "heading": "Heading",
+        "description": "<p>Description</p>",
+        "product": "",
+        "show_two": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
     "main",
     "slideshow_64tNBL",
-    "products_grid_jDAcnd",
+    "featured_product_PhCNAe",
     "image_banner_VBNqrV",
     "image_banner_8dVimd",
     "image_banner_wxjzEf"
