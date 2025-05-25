@@ -103,13 +103,6 @@
           "type": "title",
           "settings": {}
         },
-        "icon_with_text_tdXNJQ": {
-          "type": "icon-with-text",
-          "settings": {
-            "show_icon": false,
-            "heading": "Heading"
-          }
-        },
         "price_BcRkgi": {
           "type": "price",
           "settings": {}
@@ -132,34 +125,23 @@
             "show_quantity": false,
             "show_gift_card_recipient": false
           }
-        },
-        "share_Pr9q7W": {
-          "type": "share",
-          "settings": {
-            "show_share_facebook": true,
-            "show_share_twitter": true,
-            "show_share_telegram": true,
-            "show_share_copy": true
-          }
         }
       },
       "block_order": [
         "tags_tF8BKj",
         "title_6AGNwX",
-        "icon_with_text_tdXNJQ",
         "price_BcRkgi",
         "variant_picker_qd7TWg",
-        "buy_buttons_DmNY8r",
-        "share_Pr9q7W"
+        "buy_buttons_DmNY8r"
       ],
       "name": "t:sections.featured-product.name",
       "settings": {
-        "heading": "Heading",
-        "description": "<p>Description</p>",
-        "product": "",
+        "heading": "",
+        "description": "",
+        "product": "s1-summer-tracskuit",
         "show_two": true,
-        "margin_top": "s",
-        "margin_bottom": "s"
+        "margin_top": "no-indent",
+        "margin_bottom": "xs"
       }
     },
     "image_banner_VBNqrV": {
