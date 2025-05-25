@@ -31,8 +31,8 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 11,
-        "per_row": 4,
+        "products_per_page": 23,
+        "per_row": 5,
         "show_two_cards": false,
         "show_secondary_image": true,
         "show_sku": false,
