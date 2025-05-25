@@ -40,7 +40,7 @@
         "show_collection_name": false,
         "show_desc": false,
         "show_color_swatch": false,
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "image_fit": "cover",
         "enable_filtering": true,
         "filter_type": "drawer-menu",
