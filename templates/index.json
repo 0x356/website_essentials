@@ -92,54 +92,26 @@
         "margin_bottom": "xs"
       }
     },
-    "featured_product_PhCNAe": {
-      "type": "featured-product",
-      "blocks": {
-        "tags_tF8BKj": {
-          "type": "tags",
-          "settings": {}
-        },
-        "title_6AGNwX": {
-          "type": "title",
-          "settings": {}
-        },
-        "price_BcRkgi": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_qd7TWg": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "show_size_guide": true,
-            "size_guide_header": "Header",
-            "size_guide_decription": "",
-            "size_guide_text": "Size Guide",
-            "page": ""
-          }
-        },
-        "buy_buttons_DmNY8r": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_quantity": false,
-            "show_gift_card_recipient": false
-          }
-        }
-      },
-      "block_order": [
-        "tags_tF8BKj",
-        "title_6AGNwX",
-        "price_BcRkgi",
-        "variant_picker_qd7TWg",
-        "buy_buttons_DmNY8r"
-      ],
-      "name": "t:sections.featured-product.name",
+    "products_grid_DwEH3g": {
+      "type": "products-grid",
+      "name": "t:sections.products-grid.name",
       "settings": {
-        "heading": "",
-        "description": "",
-        "product": "s1-summer-tracskuit",
-        "show_two": true,
+        "products_per_page": 4,
+        "sort": "date_reversed",
+        "heading": "S1 SIGNATURE ‘’Volume 2’’",
+        "description": "<p>Limited Stock, Never Restocking  </p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary",
+        "show_two_cards": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_collection_name": true,
+        "show_desc": false,
+        "show_color_swatch": false,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
         "margin_top": "no-indent",
         "margin_bottom": "xs"
       }
@@ -214,7 +186,7 @@
   "order": [
     "main",
     "slideshow_64tNBL",
-    "featured_product_PhCNAe",
+    "products_grid_DwEH3g",
     "image_banner_VBNqrV",
     "image_banner_8dVimd",
     "image_banner_wxjzEf"
