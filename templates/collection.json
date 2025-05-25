@@ -42,7 +42,7 @@
         "show_color_swatch": false,
         "image_ratio": "portrait",
         "image_fit": "cover",
-        "enable_filtering": true,
+        "enable_filtering": false,
         "filter_type": "drawer-menu",
         "enable_sorting": false,
         "padding_top": "m",
