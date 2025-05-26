@@ -97,7 +97,7 @@
       "name": "t:sections.products-grid.name",
       "settings": {
         "products_per_page": 4,
-        "sort": "date_reversed",
+        "sort": "date",
         "heading": "‘’S1 SIGNATURE’’ COLLECTION",
         "description": "<p>Limited stock, Never Restocking</p>",
         "button_label": "",
