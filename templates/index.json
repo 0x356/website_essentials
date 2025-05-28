@@ -94,12 +94,11 @@
     },
     "products_grid_DwEH3g": {
       "type": "products-grid",
-      "name": "t:sections.products-grid.name",
       "settings": {
         "products_per_page": 4,
         "sort": "date",
-        "heading": "‘’S1 SIGNATURE’’ COLLECTION",
-        "description": "<p>Limited stock, Never Restocking</p>",
+        "heading": "",
+        "description": "",
         "button_label": "",
         "button_link": "",
         "button_style": "secondary",
@@ -118,7 +117,6 @@
     },
     "image_banner_VBNqrV": {
       "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "full_width": true,
         "color_scheme": "",
@@ -140,7 +138,6 @@
     },
     "image_banner_8dVimd": {
       "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "full_width": true,
         "color_scheme": "",
@@ -162,7 +159,6 @@
     },
     "image_banner_wxjzEf": {
       "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "full_width": true,
         "color_scheme": "",
