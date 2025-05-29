@@ -115,7 +115,7 @@
           "type": "text-block",
           "settings": {
             "block_heading": "CARE INSTRUCTIONS",
-            "text": "<p>•    Wash cold<br/>•    Gentle cycle<br/>•    Low heat iron if needed</p>"
+            "text": "<ul><li>Wash cold </li><li>Gentle cycle</li><li>Low heat iron if needed </li><li>Air dryer recommended</li></ul>"
           }
         },
         "text_block_kEjUPp": {
@@ -148,53 +148,6 @@
     },
     "1743816336fea06645": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_video_slider_nFJMBn": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-video-slider/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "show-by-tag": false,
-            "layout": "spotlight",
-            "shadow": "",
-            "show-rating": true,
-            "show-reviewer-name": true,
-            "hide-arrows-mobile": true,
-            "auto-play": true,
-            "show-border": false,
-            "border-width": 1,
-            "border-radius": 16,
-            "text-color": "",
-            "rating-icon-color": "",
-            "border-color": "",
-            "play-button-color": "",
-            "shadow-color": "",
-            "product-id": ""
-          }
-        },
-        "loox_reviews_loox_gallery_carousel_section_RKEqrc": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-gallery-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
-          "settings": {
-            "maxWidth": 1100,
-            "borderRadius": 60,
-            "itemsPerView": 5,
-            "mobileItemsPerView": 1,
-            "imageRatio": "1",
-            "reviewerNameColor": "#ffffff",
-            "starsColor": "#ffffff",
-            "arrows_backgroundColor": "#ffffff",
-            "arrows_iconColor": "#9a9a9a",
-            "shadow": "none",
-            "border_active": false,
-            "border_width": 2,
-            "border_color": "#000000",
-            "productIds": "{{ product }}"
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_video_slider_nFJMBn",
-        "loox_reviews_loox_gallery_carousel_section_RKEqrc"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -224,13 +177,42 @@
         "margin_top": "xs",
         "margin_bottom": "xs"
       }
+    },
+    "1748547874f2d7853f": {
+      "type": "apps",
+      "blocks": {
+        "2clickfit_try_on_button_3MJmBW": {
+          "type": "shopify://apps/2clickfit/blocks/try_on_button/b4fc0e90-cad8-4d6a-8623-2846c220cf22",
+          "settings": {
+            "color": "#1673FF",
+            "text": "#FFFFFF",
+            "bord": 0,
+            "bordercol": "#FFFFFF",
+            "radius": 30,
+            "gradbool": true,
+            "butwidth": 25,
+            "butheight": 15,
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "font": "-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
+            "orient": true
+          }
+        }
+      },
+      "block_order": [
+        "2clickfit_try_on_button_3MJmBW"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
+    "1748547874f2d7853f",
     "main",
+    "1743816336fea06645",
     "rich_text_HCPjpC",
     "collapsible_content_GrtcYF",
-    "1743816336fea06645",
     "product-recommendations"
   ]
 }
