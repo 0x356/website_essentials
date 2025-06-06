@@ -58,7 +58,7 @@
           "type": "slideshow_item",
           "settings": {
             "color_scheme": "background-2",
-            "image": "shopify://shop_images/IMG_2724.jpg",
+            "image": "shopify://shop_images/IMG_2795.jpg",
             "badge": "‘’S1 SIGNATURE’’ COLLECTION IS BACK IN STOCK",
             "heading": "",
             "text": "",
@@ -136,27 +136,6 @@
         "padding_bottom": "s"
       }
     },
-    "image_banner_8dVimd": {
-      "type": "image-banner",
-      "settings": {
-        "full_width": true,
-        "color_scheme": "",
-        "heading": "",
-        "description": "",
-        "text_align": "left",
-        "text_vertical": "center",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "image": "shopify://shop_images/IMG_2725.jpg",
-        "image_size": "small",
-        "overlay_opacity": 0,
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "s",
-        "padding_bottom": "s"
-      }
-    },
     "image_banner_wxjzEf": {
       "type": "image-banner",
       "settings": {
@@ -170,6 +149,27 @@
         "button_link": "",
         "button_style": "primary",
         "image": "shopify://shop_images/IMG_2726.jpg",
+        "image_size": "small",
+        "overlay_opacity": 0,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
+    },
+    "image_banner_8dVimd": {
+      "type": "image-banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "",
+        "heading": "",
+        "description": "",
+        "text_align": "left",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image": "shopify://shop_images/IMG_2725.jpg",
         "image_size": "small",
         "overlay_opacity": 0,
         "margin_top": "no-indent",
