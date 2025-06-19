@@ -28,6 +28,7 @@
         },
         "icon_with_text_ccBF9R": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "show_icon": true,
             "heading": "FREE SHIPPING"
