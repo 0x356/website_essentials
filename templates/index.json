@@ -96,7 +96,7 @@
       "type": "products-grid",
       "settings": {
         "products_per_page": 4,
-        "sort": "alphabetical_reversed",
+        "sort": "alphabetical",
         "heading": "",
         "description": "",
         "button_label": "",
