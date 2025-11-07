@@ -74,6 +74,7 @@
         "slideshow_item_AFLMDC",
         "slideshow_item_eC3EdE"
       ],
+      "disabled": true,
       "settings": {
         "section_layout": "overlay",
         "section_size": "full",
