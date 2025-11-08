@@ -17,57 +17,6 @@
         "padding_bottom": "no-indent"
       }
     },
-    "rich_text_KfX83r": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_zQarnJ": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Subheading"
-          }
-        },
-        "heading_NKjfz3": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>FREE SHIPPING ON ALL CANADIAN ORDERS !</p>",
-            "heading_size": "h4"
-          }
-        },
-        "text_cMgyHe": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Description for your section.</p>"
-          }
-        },
-        "button_zpTe8m": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Subscribe",
-            "button_link": "",
-            "button_style": "secondary"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_zQarnJ",
-        "heading_NKjfz3",
-        "text_cMgyHe",
-        "button_zpTe8m"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "content_horizontal": "center",
-        "margin_top": "s",
-        "margin_bottom": "s",
-        "padding_top": "no-indent",
-        "padding_bottom": "no-indent"
-      }
-    },
     "slideshow_64tNBL": {
       "type": "slideshow",
       "blocks": {
@@ -227,11 +176,62 @@
         "padding_top": "s",
         "padding_bottom": "s"
       }
+    },
+    "rich_text_4PfMdb": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_jRVzfW": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "FREE SHIPPING ON ALL CANADIAN ORDERS !"
+          }
+        },
+        "heading_DEhaLq": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Heading for your section</p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_DBc6hb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Description for your section.</p>"
+          }
+        },
+        "button_X9QD9w": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Subscribe",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jRVzfW",
+        "heading_DEhaLq",
+        "text_DBc6hb",
+        "button_X9QD9w"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "s",
+        "margin_bottom": "s",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
     }
   },
   "order": [
+    "rich_text_4PfMdb",
     "main",
-    "rich_text_KfX83r",
     "slideshow_64tNBL",
     "products_grid_DwEH3g",
     "image_banner_VBNqrV",
