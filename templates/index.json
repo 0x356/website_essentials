@@ -12,12 +12,6 @@
     "rich_text_4PfMdb": {
       "type": "rich-text",
       "blocks": {
-        "subheading_jRVzfW": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "FREE SHIPPING ON ALL CANADIAN ORDERS !"
-          }
-        },
         "heading_DEhaLq": {
           "type": "heading",
           "disabled": true,
@@ -44,7 +38,6 @@
         }
       },
       "block_order": [
-        "subheading_jRVzfW",
         "heading_DEhaLq",
         "text_DBc6hb",
         "button_X9QD9w"
