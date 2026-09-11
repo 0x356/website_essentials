@@ -138,7 +138,7 @@
     "products_grid_DwEH3g": {
       "type": "products-grid",
       "settings": {
-        "products_per_page": 4,
+        "products_per_page": 11,
         "sort": "alphabetical",
         "heading": "",
         "description": "",
