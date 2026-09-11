@@ -14,10 +14,9 @@
       "blocks": {
         "heading_DEhaLq": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "<p>Heading for your section</p>",
-            "heading_size": "h2"
+            "heading": "<p>NEW RESTOCK  </p><p> 30% OFF SITEWIDE</p>",
+            "heading_size": "h3"
           }
         },
         "text_DBc6hb": {
@@ -44,7 +43,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "full_width": true,
         "content_horizontal": "center",
         "margin_top": "s",
